@@ -1,0 +1,5 @@
+{
+    "displayName": "Runtime Example",
+    "description": "Example of a basic runtime use of handles.",
+    "createSeparatePackage": false
+}

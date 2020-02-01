@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Labs.ModuleLoader.Example",
+    "references": [
+        "Unity.Labs.Utils",
+        "Unity.Labs.ModuleLoader.Interfaces",
+        "Unity.Labs.ModuleLoader.Example.Interfaces",
+        "Unity.Labs.ModuleLoader"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

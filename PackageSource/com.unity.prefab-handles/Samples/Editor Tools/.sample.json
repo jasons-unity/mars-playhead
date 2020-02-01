@@ -1,0 +1,5 @@
+{
+    "displayName": "Editor Manipulation Tools",
+    "description": "Implementation of the basic manipulation tools of the editor using the Tool Mode API.",
+    "createSeparatePackage": false
+}

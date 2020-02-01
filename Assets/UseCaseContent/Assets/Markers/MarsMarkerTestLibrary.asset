@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d047b3ff28334c19afece99d54cfb46, type: 3}
+  m_Name: MarsMarkerTestLibrary
+  m_EditorClassIdentifier: 
+  m_Markers:
+  - m_SpecifySize: 1
+    m_Size: {x: 0.092, y: 0.061}
+    m_Label: flower
+    m_Texture: {fileID: 2800000, guid: 074ed0f816a9c4895b249c1a9904f3b2, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5658218454596210213
+      m_GuidHigh: 18313900939059893689
+  - m_SpecifySize: 1
+    m_Size: {x: 0.076, y: 0.076}
+    m_Label: logo
+    m_Texture: {fileID: 2800000, guid: a3419cdd07d924ab7a9000e4e4d2e24e, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5096431608374002016
+      m_GuidHigh: 6250710561826183861
+  - m_SpecifySize: 1
+    m_Size: {x: 0.036, y: 0.036}
+    m_Label: qrcode
+    m_Texture: {fileID: 2800000, guid: 5fbc0b5fb81114498be7c793308822bd, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5518729736402190397
+      m_GuidHigh: 15294626718864970392

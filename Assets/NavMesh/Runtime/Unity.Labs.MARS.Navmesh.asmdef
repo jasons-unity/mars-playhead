@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Labs.MARS.Navmesh",
+    "references": [
+        "Unity.Labs.MARS",
+        "NavMeshComponents",
+        "Unity.Labs.MARS.Interfaces",
+        "Unity.Labs.Utils",
+        "Unity.Labs.Utils.Editor",
+        "Unity.Labs.ModuleLoader.Interfaces"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ULSFaceTracker.Runtime",
+    "references": [
+        "Unity.Labs.MARS.Interfaces",
+        "Unity.Labs.Utils",
+        "Unity.Labs.ModuleLoader.Interfaces"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

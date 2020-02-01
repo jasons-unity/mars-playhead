@@ -1,0 +1,25 @@
+{
+    "name": "UnityEditor.PrefabHandles",
+    "references": [
+        "GUID:64de38610c6c0e546b05fc3db659e0af",
+        "GUID:74d86685b20a97747a697a59c6c1191b",
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "7.1.0",
+            "define": "HDRP_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
+}

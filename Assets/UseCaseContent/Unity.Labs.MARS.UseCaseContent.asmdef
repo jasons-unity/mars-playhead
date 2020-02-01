@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Labs.MARS.UseCaseContent",
+    "references": [
+        "Unity.Labs.MARS",
+        "Unity.Labs.MARS.Interfaces",
+        "Unity.Labs.Utils",
+        "Unity.TextMeshPro",
+        "Unity.Labs.ModuleLoader.Interfaces",
+        "Unity.Labs.MARS.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

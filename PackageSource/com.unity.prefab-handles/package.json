@@ -1,0 +1,7 @@
+{
+	"name": "com.unity.prefab-handles",
+	"displayName":"Prefab Handles",
+	"version": "0.4.1-preview",
+	"unity": "2019.2",
+	"description": "The prefab handles package offers a way to create Handles for manipulation using game objects. These handles use the unity rendering and lifecycle and are not bound to immediate mode like the default editor handles. This is made as an easier solution to author more complex handles and is available at runtime."
+}

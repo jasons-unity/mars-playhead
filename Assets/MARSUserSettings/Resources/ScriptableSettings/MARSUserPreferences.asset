@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b1276f70a268824caeb9a1877c01d2e, type: 3}
+  m_Name: MARSUserPreferences
+  m_EditorClassIdentifier: 
+  m_ShowMARSHints: 1
+  m_ShowWorldScaleHint: 1
+  m_ShowEntitySetupHints: 1
+  m_ShowDataVisualizersHints: 1
+  m_ShowMemoryOptionsHint: 1
+  m_ShowQuerySearchHint: 1
+  m_ShowDisabledSimulationComponentsHint: 1
+  m_ShowSimulatedGeoLocationHint: 1
+  m_DefaultHandleColor: {r: 1, g: 0, b: 1, a: 1}
+  m_ValidDependencyColor: {r: 0, g: 1, b: 0, a: 1}
+  m_InvalidDependencyColor: {r: 1, g: 0, b: 0, a: 1}
+  m_RelationColor: {r: 0, g: 1, b: 1, a: 1}
+  m_EditingRelationColor: {r: 0, g: 1, b: 1, a: 0.2}
+  m_PlaneSizeConditionColor: {r: 0.1172, g: 0.7383, b: 0.8086, a: 1}
+  m_ElevationRelationColor: {r: 0.1133, g: 0.8672, b: 0.5742, a: 1}
+  m_DistanceConditionColor: {r: 0.8125, g: 0.3516, b: 0.2109, a: 1}
+  m_AngleAxisConditionColor: {r: 0.6484, g: 0.2656, b: 0.668, a: 1}
+  m_UnmatchedConditionColor: {r: 1, g: 0, b: 0, a: 1}
+  m_HighlightedSimulatedObjectColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_ExtractPlanesOnSave: 0
+  m_ScaleEntityPositions: 1
+  m_ScaleEntityChildren: 0
+  m_ScaleSceneAudio: 0
+  m_ScaleSceneLighting: 0
+  m_ScaleClippingPlanes: 1
+  m_RestrictCameraToEnvironmentBounds: 1
+  m_TintImageMarkers: 0

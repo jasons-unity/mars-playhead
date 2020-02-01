@@ -1,0 +1,13 @@
+{
+    "name": "ULSFaceTracker.Editor",
+    "references": [
+        "ULSFaceTracker.Runtime",
+        "Unity.Labs.MARS.Interfaces"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.labs.mars.use-case-content",
+    "version": "0.1.1-preview",
+    "displayName": "MARS Use Case Content",
+    "description": "MARS content to be used as tests for developers to validate changes to the MARS source",
+    "unity": "2019.3",
+    "unityRelease": "0f1",
+    "dependencies": {
+        "com.unity.labs.mars": "0.1.1-preview"
+    }
+}

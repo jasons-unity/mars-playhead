@@ -1,0 +1,15 @@
+{
+    "name": "UnityEngine.PrefabHandles",
+    "references": [
+        "GUID:74d86685b20a97747a697a59c6c1191b"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

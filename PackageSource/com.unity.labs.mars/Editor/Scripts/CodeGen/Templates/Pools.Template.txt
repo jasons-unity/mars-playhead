@@ -1,0 +1,7 @@
+﻿namespace Unity.Labs.MARS
+{
+    static partial class Pools
+    {
+{Dictionary_PROPERTIES}
+    }
+}

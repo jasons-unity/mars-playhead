@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 11c1890575215c84c895f951d8e924c8
+timeCreated: 1523269228
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - m_TemplateCollection: {fileID: 11400000, guid: 28e84e9c5de4fab47b546efde94f4582,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+{
+    "name": "Unity.Labs.MARS.Editor",
+    "references": [
+        "Unity.Labs.MARS",
+        "Unity.Labs.Utils.Editor",
+        "Unity.Labs.Utils",
+        "Unity.Labs.MARS.Interfaces",
+        "Unity.Labs.ModuleLoader.Interfaces",
+        "Unity.Labs.ModuleLoader",
+        "Unity.Labs.ModuleLoader.Editor",
+        "Unity.XR.Remoting",
+        "Unity.XR.Remoting.Editor",
+        "UnityEngine.PrefabHandles",
+        "UnityEditor.PrefabHandles",
+        "Unity.Timeline",
+        "Unity.Postprocessing.Editor",
+        "Unity.Postprocessing.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
