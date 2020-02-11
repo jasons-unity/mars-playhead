@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_mars-playhead.-1907352347.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="NavMesh" t="Include">
+          <e p="NavMeshComponents" t="Include">
+            <e p="NavMeshComponents" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+                <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                <e p="NavMeshLinkEditor.cs" t="Include" />
+                <e p="NavMeshModifierEditor.cs" t="Include" />
+                <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                <e p="NavMeshSurfaceEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="NavMeshComponents.asmdef" t="Include" />
+                <e p="NavMeshLink.cs" t="Include" />
+                <e p="NavMeshModifier.cs" t="Include" />
+                <e p="NavMeshModifierVolume.cs" t="Include" />
+                <e p="NavMeshSurface.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="JumpNavigation.cs" t="Include" />
+              <e p="MARSNavMeshAgent.cs" t="Include" />
+              <e p="MARSNavMeshAgentManager.cs" t="Include" />
+              <e p="MARSNavMeshSurface.cs" t="Include" />
+            </e>
+            <e p="Unity.Labs.MARS.Navmesh.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="Providers" t="Include">
+          <e p="ULSFaceTracker" t="Include">
+            <e p="Editor" t="Include">
+              <e p="MeshSaverEditor.cs" t="Include" />
+              <e p="PostBuild.cs" t="Include" />
+              <e p="SortingLayerEditor.cs" t="Include" />
+              <e p="ULSFaceEditorUtils.cs" t="Include" />
+              <e p="ULSFaceTracker.Editor.asmdef" t="Include" />
+              <e p="ULSFacialExpressionSettingsEditor.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Materials" t="Include">
+                <e p="DepthMask.shader" t="Include" />
+                <e p="eyeMask.shader" t="Include" />
+                <e p="hair.shader" t="Include" />
+              </e>
+              <e p="Plugins" t="Include">
+                <e p="LibMultiTracker.bundle" t="Include">
+                  <e p="Contents" t="Include">
+                    <e p="Resources" t="Include">
+                      <e p="model" t="Include">
+                        <e p="face.xml" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+                <e p="model" t="Include">
+                  <e p="face.xml" t="Include" />
+                </e>
+              </e>
+              <e p="Readme" t="Include">
+                <e p="Version.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="ActivationKey.cs" t="Include" />
+                <e p="ARUtils.cs" t="Include" />
+                <e p="CameraDispatch.cs" t="Include" />
+                <e p="FaceMask.cs" t="Include" />
+                <e p="FPSCounter.cs" t="Include" />
+                <e p="Object3D.cs" t="Include" />
+                <e p="Plugins.cs" t="Include" />
+                <e p="Providers" t="Include">
+                  <e p="ULSFaceExpression.cs" t="Include" />
+                  <e p="ULSFaceExpressionUtils.cs" t="Include" />
+                  <e p="ULSFaceLandmark.cs" t="Include" />
+                  <e p="ULSFaceTrackingProvider.cs" t="Include" />
+                  <e p="ULSFacialExpressionSettings.cs" t="Include" />
+                  <e p="ULSLandmarksVisualizer.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ULSFaceTracker.Runtime.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="XRSDKProviders" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ARCore" t="Include">
+                <e p="ARCoreFaceEditorUtils.cs" t="Include" />
+                <e p="ARCoreFaceLandmarkIndicesEditor.cs" t="Include" />
+                <e p="ARCoreFacialExpressionSettingsEditor.cs" t="Include" />
+              </e>
+              <e p="ARKit" t="Include">
+                <e p="ARKitFaceEditorUtils.cs" t="Include" />
+                <e p="ARKitFaceLandmarkIndicesEditor.cs" t="Include" />
+                <e p="ARKitFacialExpressionSettingsEditor.cs" t="Include" />
+              </e>
+              <e p="MarkerProviderSettingsEditor.cs" t="Include" />
+              <e p="Unity.Labs.XRSDKProviders.Editor.asmdef" t="Include" />
+              <e p="XRSDKMarkerAssetProcessor.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Calibration" t="Include">
+                <e p="ARCoreLandmarksCalibration.cs" t="Include" />
+                <e p="ARKitLandmarksCalibration.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="ARFoundationSessionProvider.cs" t="Include" />
+                <e p="extensions" t="Include">
+                  <e p="ARCore" t="Include">
+                    <e p="ARCoreFaceExpression.cs" t="Include" />
+                    <e p="ARCoreFaceExpressionsExtensions.cs" t="Include" />
+                    <e p="ARCoreFaceExpressionUtils.cs" t="Include" />
+                    <e p="ARCoreFaceLandmarksExtensions.cs" t="Include" />
+                    <e p="ARCoreFaceMeshLandmark.cs" t="Include" />
+                    <e p="ARCoreFacialExpressionSettings.cs" t="Include" />
+                    <e p="ARCoreLandmarkMeshIndices.cs" t="Include" />
+                  </e>
+                  <e p="ARFaceExtensions.cs" t="Include" />
+                  <e p="ARKit" t="Include">
+                    <e p="ARKitFaceExpression.cs" t="Include" />
+                    <e p="ARKitFaceExpressionsExtensions.cs" t="Include" />
+                    <e p="ARKitFaceLandmarksExtensions.cs" t="Include" />
+                    <e p="ARKitFaceMeshLandmark.cs" t="Include" />
+                    <e p="ARKitFacialExpressionSettings.cs" t="Include" />
+                    <e p="ARKitLandmarkMeshIndices.cs" t="Include" />
+                  </e>
+                  <e p="ARPlaneExtensions.cs" t="Include" />
+                  <e p="ARTrackedImageExtensions.cs" t="Include" />
+                  <e p="PlaneAlignmentExtensions.cs" t="Include" />
+                  <e p="ReferencePointExtensions.cs" t="Include" />
+                  <e p="TrackableIdExtensions.cs" t="Include" />
+                  <e p="XRRaycastHitExtensions.cs" t="Include" />
+                </e>
+                <e p="FaceTracking" t="Include">
+                  <e p="XRSDKFace.cs" t="Include" />
+                  <e p="XRSDKFaceExpression.cs" t="Include" />
+                  <e p="XRSDKFaceExpressionSettings.cs" t="Include" />
+                  <e p="XRSDKFaceTrackingProvider.cs" t="Include" />
+                </e>
+                <e p="Interfaces" t="Include">
+                  <e p="ITrackableProvider.cs" t="Include" />
+                </e>
+                <e p="MarkerProviderSettings.cs" t="Include" />
+                <e p="XRSDKCameraProvider.cs" t="Include" />
+                <e p="XRSDKHitTestingProvider.cs" t="Include" />
+                <e p="XRSDKMarkerProvider.cs" t="Include" />
+                <e p="XRSDKPlaneProvider.cs" t="Include" />
+                <e p="XRSDKPointCloudProvider.cs" t="Include" />
+                <e p="XRSDKReferencePointProvider.cs" t="Include" />
+              </e>
+              <e p="Unity.Labs.XRSDKProviders.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Playhead.cs" t="Include" />
+          <e p="PlayTone.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="UseCaseContent" t="Include">
+          <e p="Assets" t="Include">
+            <e p="BodyOccluder" t="Include">
+              <e p="BodyPlane.cs" t="Include" />
+              <e p="ProjectedGlow.cs" t="Include" />
+              <e p="ProjectorStrongLight.shader" t="Include" />
+              <e p="SolidOccludedObject.shader" t="Include" />
+              <e p="TransparentOccluder.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AdjustConditionOnTap.cs" t="Include" />
+            <e p="ConditionsForTraitsTestBehavior.cs" t="Include" />
+            <e p="DisplayClientTracking.cs" t="Include" />
+            <e p="Expressions" t="Include">
+              <e p="FaceExpressionEventText.cs" t="Include" />
+            </e>
+            <e p="LineBetweenLandmarkPoints.cs" t="Include" />
+            <e p="LocationUserExample.cs" t="Include" />
+            <e p="RepositionLostChild.cs" t="Include" />
+            <e p="SceneSwitcher.cs" t="Include" />
+            <e p="SessionUI.cs" t="Include" />
+            <e p="SimEnvironmentSwitcher.cs" t="Include" />
+            <e p="TestMultiCondition.cs" t="Include" />
+            <e p="UnityDataCloudStorage" t="Include">
+              <e p="CloudDataStorageTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Runtime" t="Include">
+              <e p="ListViewRuntimeTest.cs" t="Include" />
+              <e p="Unity.Labs.MARS.UseCaseContent.Tests.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="Unity.Labs.MARS.UseCaseContent.asmdef" t="Include" />
+        </e>
+      </e>
+      <e p="mars-playhead.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PackageSource" t="Include">
+        <e p="com.unity.labs.mars" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Analytics" t="Include">
+              <e p="EditorEvents.cs" t="Include" />
+              <e p="MarsAnalytics.cs" t="Include" />
+            </e>
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="GUI" t="Include">
+              <e p="ComponentInspector.cs" t="Include" />
+              <e p="ComponentListEditor.cs" t="Include" />
+              <e p="Decorators" t="Include">
+                <e p="AttributeDecorator.cs" t="Include" />
+                <e p="Decorators.cs" t="Include" />
+              </e>
+              <e p="EditorGUIUtils.cs" t="Include" />
+              <e p="EventInspectorUtils.cs" t="Include" />
+              <e p="HandleUtils.cs" t="Include" />
+              <e p="MARSEditorGUI.cs" t="Include" />
+              <e p="ScenePlacementGUI.cs" t="Include" />
+              <e p="SerializedPropertyData.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Actions" t="Include">
+                <e p="FaceLandmarksActionInspector.cs" t="Include" />
+              </e>
+              <e p="AssetPipeline" t="Include">
+                <e p="MARSAssetReferenceDrawer.cs" t="Include" />
+              </e>
+              <e p="CodeGen" t="Include">
+                <e p="BaseCodeGenerator.cs" t="Include" />
+                <e p="CodeGenerationShared.cs" t="Include" />
+                <e p="CodeGenerationTypeData.cs" t="Include" />
+                <e p="GeneratedTypeSet.cs" t="Include" />
+                <e p="Generators" t="Include">
+                  <e p="CachedTraitCollectionsCodeGenerator.cs" t="Include" />
+                  <e p="ConditionRatingsCodeGenerator.cs" t="Include" />
+                  <e p="ConditionsCodeGenerator.cs" t="Include" />
+                  <e p="DatabaseConditionsCodeGenerator.cs" t="Include" />
+                  <e p="DatabaseRelationsCodeGenerator.cs" t="Include" />
+                  <e p="DatabaseTraitsCodeGenerator.cs" t="Include" />
+                  <e p="FindMatchProposalsCodeGenerator.cs" t="Include" />
+                  <e p="MatchRatingCodeGenerator.cs" t="Include" />
+                  <e p="PoolsCodeGenerator.cs" t="Include" />
+                  <e p="QueryResultCodeGenerator.cs" t="Include" />
+                  <e p="RelationMatchRatingCodeGenerator.cs" t="Include" />
+                  <e p="RelationsCodeGenerator.cs" t="Include" />
+                  <e p="RelationTraitCacheCodeGenerator.cs" t="Include" />
+                  <e p="ResultFillCodeGenerator.cs" t="Include" />
+                  <e p="SetQueryPipelineCodeGenerator.cs" t="Include" />
+                </e>
+                <e p="IGeneratesCode.cs" t="Include" />
+                <e p="Templates" t="Include">
+                  <e p="CachedTraitCollections.Template.txt" t="Include" />
+                  <e p="ConditionRatingsData.Template.txt" t="Include" />
+                  <e p="Conditions.Template.txt" t="Include" />
+                  <e p="FindMatchProposals.Template.txt" t="Include" />
+                  <e p="MARSDatabase.Conditions.Template.txt" t="Include" />
+                  <e p="MARSDatabase.Relations.Template.txt" t="Include" />
+                  <e p="MARSDatabase.Traits.Template.txt" t="Include" />
+                  <e p="MatchRating.Template.txt" t="Include" />
+                  <e p="Pools.Template.txt" t="Include" />
+                  <e p="QueryResult.Template.txt" t="Include" />
+                  <e p="RelationMatchRating.Template.txt" t="Include" />
+                  <e p="Relations.Template.txt" t="Include" />
+                  <e p="RelationTraitCache.Template.txt" t="Include" />
+                  <e p="ResultFillStage.Template.txt" t="Include" />
+                  <e p="SetQueryPipeline.Template.txt" t="Include" />
+                </e>
+                <e p="TraitCodeGenerator.cs" t="Include" />
+              </e>
+              <e p="Conditions" t="Include">
+                <e p="AlignmentConditionInspector.cs" t="Include" />
+                <e p="AngleAxisConditionInspector.cs" t="Include" />
+                <e p="ConditionBaseInspector.cs" t="Include" />
+                <e p="ConditionVerifier.cs" t="Include" />
+                <e p="DependencyConditionInspector.cs" t="Include" />
+                <e p="DistanceRelationInspector.cs" t="Include" />
+                <e p="ElevationRelationInspector.cs" t="Include" />
+                <e p="GeoFenceConditionInspector.cs" t="Include" />
+                <e p="MarkerConditionInspector.cs" t="Include" />
+                <e p="MultiConditionEditor.cs" t="Include" />
+                <e p="MultiConditionInspector.cs" t="Include" />
+                <e p="MultiRelationEditor.cs" t="Include" />
+                <e p="MultiRelationInspector.cs" t="Include" />
+                <e p="PlaneSizeConditionInspector.cs" t="Include" />
+                <e p="RelationInspector.cs" t="Include" />
+                <e p="SemanticTagConditionInspector.cs" t="Include" />
+                <e p="SpatialConditionInspector.cs" t="Include" />
+                <e p="Tags" t="Include">
+                  <e p="FixedTagConditionInspector.cs" t="Include" />
+                  <e p="IsFaceConditionInspector.cs" t="Include" />
+                  <e p="IsPlaneConditionInspector.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Data" t="Include">
+                <e p="Editors" t="Include">
+                  <e p="GeographicBoundingBoxPropertyDrawer.cs" t="Include" />
+                  <e p="GeographicCoordinatePropertyDrawer.cs" t="Include" />
+                </e>
+                <e p="MARSHelpURLs.cs" t="Include" />
+                <e p="MARSObjectCreationResources.cs" t="Include" />
+                <e p="MARSUIResources.cs" t="Include" />
+                <e p="MARSUserPreferences.cs" t="Include" />
+                <e p="MARSUserPreferencesEditor.cs" t="Include" />
+                <e p="SharedQueryDataDrawer.cs" t="Include" />
+              </e>
+              <e p="Database" t="Include">
+                <e p="DatabaseViewer.cs" t="Include" />
+                <e p="MARSMemoryOptionsEditor.cs" t="Include" />
+                <e p="QueryPipelineConfigurationEditor.cs" t="Include" />
+                <e p="QueryPipelineViewer.cs" t="Include" />
+                <e p="QueryPipelineViewer.IndexView.cs" t="Include" />
+              </e>
+              <e p="Entities" t="Include">
+                <e p="MARSComponentListEditor.cs" t="Include" />
+                <e p="MARSEditorPrefabs.cs" t="Include" />
+                <e p="MARSEntityEditor.cs" t="Include" />
+              </e>
+              <e p="Environment" t="Include">
+                <e p="MARSEnvironmentSettingsEditor.cs" t="Include" />
+                <e p="PlaneExtractionSettingsEditor.cs" t="Include" />
+              </e>
+              <e p="extensions" t="Include">
+                <e p="CreateMenuItems.cs" t="Include" />
+                <e p="MARSDebugSettingsEditor.cs" t="Include" />
+                <e p="MARSPreferences.cs" t="Include" />
+                <e p="TransformInspector.cs" t="Include" />
+              </e>
+              <e p="Faces" t="Include">
+                <e p="ARFacepaintEditor.cs" t="Include" />
+                <e p="FaceEditorUtils.cs" t="Include" />
+                <e p="FallbackFaceEditor.cs" t="Include" />
+              </e>
+              <e p="Landmarks" t="Include">
+                <e p="CalculateLandmarksInspector.cs" t="Include" />
+                <e p="LandmarkControllerEditor.cs" t="Include" />
+              </e>
+              <e p="Modules" t="Include">
+                <e p="CompareToDataModule.cs" t="Include" />
+                <e p="Editors" t="Include">
+                  <e p="BuildPresetEditor.cs" t="Include" />
+                  <e p="MarsMarkerLibraryEditor.cs" t="Include" />
+                  <e p="MARSSceneModuleEditor.cs" t="Include" />
+                  <e p="MARSSessionEditor.cs" t="Include" />
+                  <e p="MARSWorldScaleModuleEditor.cs" t="Include" />
+                  <e p="PlacementOverrideEditor.cs" t="Include" />
+                  <e p="ScaleVisualDrawer.cs" t="Include" />
+                </e>
+                <e p="EntityFromData" t="Include">
+                  <e p="CreateEntityFromDataWindow.cs" t="Include" />
+                  <e p="EntityFromDataModule.cs" t="Include" />
+                </e>
+                <e p="EntityVisualsModule.cs" t="Include" />
+                <e p="MARSEditorBackend.cs" t="Include" />
+                <e p="MARSEntityEditorModule.cs" t="Include" />
+                <e p="MARSEnvironmentManager.cs" t="Include" />
+                <e p="MARSMarkerLibraryModule.cs" t="Include" />
+                <e p="MARSRemoteModule.cs" t="Include" />
+                <e p="MARSWorldScaleModule.cs" t="Include" />
+                <e p="MouseLabelModule.cs" t="Include" />
+                <e p="PingSimulatedObjectModule.cs" t="Include" />
+                <e p="QuerySimulationModule.cs" t="Include" />
+                <e p="ScenePlacementModule.cs" t="Include" />
+                <e p="SceneWatchdogModule.cs" t="Include" />
+                <e p="SelectionRedirectModule.cs" t="Include" />
+                <e p="SimulatedDiscoveryModule.cs" t="Include" />
+                <e p="SimulatedObjectsManager.cs" t="Include" />
+                <e p="XRayModule.cs" t="Include" />
+              </e>
+              <e p="ObjectInterface" t="Include">
+                <e p="ProxyGroupInspector.cs" t="Include" />
+                <e p="ReplicatorInspector.cs" t="Include" />
+              </e>
+              <e p="Panels" t="Include">
+                <e p="MARSObjectCreationPanel.cs" t="Include" />
+                <e p="MARSPanel.cs" t="Include" />
+                <e p="PanelOrderAttribute.cs" t="Include" />
+                <e p="PanelOrders.cs" t="Include" />
+                <e p="PanelView.cs" t="Include" />
+                <e p="ScenePlacementPanel.cs" t="Include" />
+                <e p="SinglePanelWindow.cs" t="Include" />
+              </e>
+              <e p="Providers" t="Include">
+                <e p="GeoLocationModuleEditor.cs" t="Include" />
+                <e p="GeoLocationShortcutButtons.cs" t="Include" />
+              </e>
+              <e p="SessionRecording" t="Include">
+                <e p="SessionRecordingInfoEditor.cs" t="Include" />
+                <e p="SessionRecordingSettingsEditor.cs" t="Include" />
+                <e p="SimulationRecordingManager.cs" t="Include" />
+              </e>
+              <e p="Simulation" t="Include">
+                <e p="ContentHierarchyPanel.cs" t="Include" />
+                <e p="EnvironmentHierarchyPanel.cs" t="Include" />
+                <e p="HierarchyPanel.cs" t="Include" />
+                <e p="HierarchyTreeView.cs" t="Include" />
+                <e p="ISimulationView.cs" t="Include" />
+                <e p="MiniSimulationView.cs" t="Include" />
+                <e p="PlaneGenerationModule.cs" t="Include" />
+                <e p="PlanesExtraction" t="Include">
+                  <e p="ExtractedPlaneData.cs" t="Include" />
+                  <e p="PlaneExtractionVoxelGrid.cs" t="Include" />
+                  <e p="PlanesExtractionManager.cs" t="Include" />
+                </e>
+                <e p="SimulationContext.cs" t="Include" />
+                <e p="SimulationControlsGUI.cs" t="Include" />
+                <e p="SimulationControlsPanel.cs" t="Include" />
+                <e p="SimulationSceneModule.cs" t="Include" />
+                <e p="SimulationSceneModule.SimulationScene.cs" t="Include" />
+                <e p="SimulationSceneUsers.cs" t="Include" />
+                <e p="SimulationSettings.cs" t="Include" />
+                <e p="SimulationSettingsInspector.cs" t="Include" />
+                <e p="SimulationTestRunner.cs" t="Include" />
+                <e p="SimulationView.cs" t="Include" />
+                <e p="SimulationViewDisplayOptionsWindow.cs" t="Include" />
+              </e>
+              <e p="SynthesizedObject" t="Include">
+                <e p="SynthesizedPlaneEditor.cs" t="Include" />
+              </e>
+              <e p="Templates" t="Include">
+                <e p="TemplateCollection.cs" t="Include" />
+                <e p="TemplatesWindow.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="ImageMarkerEditorUtils.cs" t="Include" />
+                <e p="MARSUtils.cs" t="Include" />
+                <e p="RatingDrawers" t="Include">
+                  <e p="ConditionRatingCurveDrawer.cs" t="Include" />
+                  <e p="DistanceRatingCurveDrawer.cs" t="Include" />
+                  <e p="ElevationRatingCurveDrawer.cs" t="Include" />
+                  <e p="PlaneSizeRatingCurveDrawer.cs" t="Include" />
+                  <e p="RatingCurveDrawer.cs" t="Include" />
+                  <e p="RatingCurveTestWindow.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Unity.Labs.MARS.Editor.asmdef" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Attributes" t="Include">
+              <e p="EventAttribute.cs" t="Include" />
+            </e>
+            <e p="Constants" t="Include">
+              <e p="MarsSceneEvaluationMode.cs" t="Include" />
+              <e p="MarsSceneEvaluationRequestResponse.cs" t="Include" />
+              <e p="MARSTrackingState.cs" t="Include" />
+              <e p="MRFaceExpression.cs" t="Include" />
+              <e p="ProcessingJobType.cs" t="Include" />
+              <e p="QueryState.cs" t="Include" />
+              <e p="ReservedDataIDs.cs" t="Include" />
+              <e p="SemanticTagMatchRule.cs" t="Include" />
+            </e>
+            <e p="Constraints" t="Include">
+              <e p="ICondition.cs" t="Include" />
+              <e p="IMultiTypeRelation.cs" t="Include" />
+              <e p="IRelation.cs" t="Include" />
+              <e p="IRelationChildValues.cs" t="Include" />
+              <e p="IRelationRatingMethod.cs" t="Include" />
+              <e p="ISemanticTagCondition.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include">
+              <e p="GeographicBoundingBox.cs" t="Include" />
+              <e p="GeographicCoordinate.cs" t="Include" />
+              <e p="IFacialExpression.cs" t="Include" />
+              <e p="IMRFace.cs" t="Include" />
+              <e p="IMRMarkerLibrary.cs" t="Include" />
+              <e p="IMRTrackable.cs" t="Include" />
+              <e p="LandmarkDefinition.cs" t="Include" />
+              <e p="MarsPlaneAlignment.cs" t="Include" />
+              <e p="MarsTrackableId.cs" t="Include" />
+              <e p="MRBody.cs" t="Include" />
+              <e p="MRBodyLandmark.cs" t="Include" />
+              <e p="MRCameraTrackingState.cs" t="Include" />
+              <e p="MRFaceLandmark.cs" t="Include" />
+              <e p="MRHitTestResult.cs" t="Include" />
+              <e p="MRHitTestResultTypes.cs" t="Include" />
+              <e p="MRMarker.cs" t="Include" />
+              <e p="MRPlane.cs" t="Include" />
+              <e p="MRReferencePoint.cs" t="Include" />
+              <e p="PointCloudData.cs" t="Include" />
+            </e>
+            <e p="extensions" t="Include">
+              <e p="TypeExtensions.cs" t="Include" />
+            </e>
+            <e p="Landmarks" t="Include">
+              <e p="ICalculateLandmarks.cs" t="Include" />
+              <e p="ILandmarkController.cs" t="Include" />
+              <e p="ILandmarkOutput.cs" t="Include" />
+              <e p="ILandmarkSettings.cs" t="Include" />
+            </e>
+            <e p="Providers" t="Include">
+              <e p="IProvidesBodyTracking.cs" t="Include" />
+              <e p="IProvidesCameraIntrinsics.cs" t="Include" />
+              <e p="IProvidesCameraOffset.cs" t="Include" />
+              <e p="IProvidesCameraPose.cs" t="Include" />
+              <e p="IProvidesCameraPreview.cs" t="Include" />
+              <e p="IProvidesCameraProjectionMatrix.cs" t="Include" />
+              <e p="IProvidesCameraTexture.cs" t="Include" />
+              <e p="IProvidesCloudDataStorage.cs" t="Include" />
+              <e p="IProvidesCompassHeading.cs" t="Include" />
+              <e p="IProvidesFaceTracking.cs" t="Include" />
+              <e p="IProvidesFacialExpressions.cs" t="Include" />
+              <e p="IProvidesFallbackLandmarks.cs" t="Include" />
+              <e p="IProvidesLightEstimation.cs" t="Include" />
+              <e p="IProvidesMarkerTracking.cs" t="Include" />
+              <e p="IProvidesMRHitTesting.cs" t="Include" />
+              <e p="IProvidesPlaneFinding.cs" t="Include" />
+              <e p="IProvidesPointCloud.cs" t="Include" />
+              <e p="IProvidesReferencePoints.cs" t="Include" />
+              <e p="IProvidesRemoteDataConnection.cs" t="Include" />
+              <e p="IProvidesSessionControl.cs" t="Include" />
+              <e p="IProvidesSlowTasks.cs" t="Include" />
+            </e>
+            <e p="Subscribers" t="Include">
+              <e p="IUsesBodyTracking.cs" t="Include" />
+              <e p="IUsesCameraIntrinsics.cs" t="Include" />
+              <e p="IUsesCameraOffset.cs" t="Include" />
+              <e p="IUsesCameraPose.cs" t="Include" />
+              <e p="IUsesCameraPreview.cs" t="Include" />
+              <e p="IUsesCameraProjectionMatrix.cs" t="Include" />
+              <e p="IUsesCameraTexture.cs" t="Include" />
+              <e p="IUsesCloudDataStorage.cs" t="Include" />
+              <e p="IUsesCompassHeading.cs" t="Include" />
+              <e p="IUsesFaceTracking.cs" t="Include" />
+              <e p="IUsesFacialExpressions.cs" t="Include" />
+              <e p="IUsesGeoLocation.cs" t="Include" />
+              <e p="IUsesLightEstimation.cs" t="Include" />
+              <e p="IUsesMarkerTracking.cs" t="Include" />
+              <e p="IUsesMARSData.cs" t="Include" />
+              <e p="IUsesMARSTrackableData.cs" t="Include" />
+              <e p="IUsesMRHitTesting.cs" t="Include" />
+              <e p="IUsesPlaneFinding.cs" t="Include" />
+              <e p="IUsesPointCloud.cs" t="Include" />
+              <e p="IUsesReferencePoints.cs" t="Include" />
+              <e p="IUsesRemoteDataConnection.cs" t="Include" />
+              <e p="IUsesSessionControl.cs" t="Include" />
+              <e p="IUsesSlowTasks.cs" t="Include" />
+            </e>
+            <e p="System" t="Include">
+              <e p="IFaceFeature.cs" t="Include" />
+              <e p="IModuleMarsUpdate.cs" t="Include" />
+              <e p="IMRObject.cs" t="Include" />
+              <e p="ISimulatable.cs" t="Include" />
+              <e p="MarsTime.cs" t="Include" />
+            </e>
+            <e p="Traits" t="Include">
+              <e p="IProvidesTraits.cs" t="Include" />
+              <e p="IRequiresTraits.cs" t="Include" />
+              <e p="ITrait.cs" t="Include" />
+              <e p="SerializedTraitRequirement.cs" t="Include" />
+              <e p="TraitDefinition.cs" t="Include" />
+              <e p="TraitNames.cs" t="Include" />
+              <e p="TraitRequirement.cs" t="Include" />
+            </e>
+            <e p="Unity.Labs.MARS.Interfaces.asmdef" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Actions" t="Include">
+                <e p="BuildSurfaceAction.cs" t="Include" />
+                <e p="FaceAction.cs" t="Include" />
+                <e p="FaceExpressionAction.cs" t="Include" />
+                <e p="MatchAction.cs" t="Include" />
+                <e p="SetAlignedPoseAction.cs" t="Include" />
+                <e p="SetPoseAction.cs" t="Include" />
+                <e p="ShowChildrenInBoundsAction.cs" t="Include" />
+                <e p="ShowChildrenOnTrackingAction.cs" t="Include" />
+                <e p="StretchToExtentsAction.cs" t="Include" />
+                <e p="TransformAction.cs" t="Include" />
+              </e>
+              <e p="Backend" t="Include">
+                <e p="Capabilities.cs" t="Include" />
+                <e p="Database" t="Include">
+                  <e p="BufferedCommandType.cs" t="Include" />
+                  <e p="CompactProposalData.cs" t="Include" />
+                  <e p="ConditionRatingsData.cs" t="Include" />
+                  <e p="MARSDatabase.cs" t="Include" />
+                  <e p="MARSDatabase.Sets.cs" t="Include" />
+                  <e p="MARSDatabase.Sets.New.cs" t="Include" />
+                  <e p="MARSDataProvider.cs" t="Include" />
+                  <e p="MARSMemoryOptions.cs" t="Include" />
+                  <e p="MARSTrackableDataProvider.cs" t="Include" />
+                  <e p="MARSTraitDataProvider.cs" t="Include" />
+                  <e p="RelationDataPair.cs" t="Include" />
+                  <e p="RelationRatingsData.cs" t="Include" />
+                  <e p="SetMatchData.cs" t="Include" />
+                  <e p="TryBestMatchArguments.cs" t="Include" />
+                  <e p="Types" t="Include">
+                    <e p="AddOrUpdateTraitCommand.cs" t="Include" />
+                    <e p="DataIdRequestMap.cs" t="Include" />
+                    <e p="GenericMARSDataCollection.cs" t="Include" />
+                    <e p="MARSTraitMultiCollection.cs" t="Include" />
+                    <e p="ProcessingJob.cs" t="Include" />
+                    <e p="RemoveTraitCommand.cs" t="Include" />
+                    <e p="TrackableComparisons.cs" t="Include" />
+                    <e p="TrackableMARSDataCollection.cs" t="Include" />
+                    <e p="TrackableProcessingJob.cs" t="Include" />
+                    <e p="TrackableProcessingJobContainer.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Interfaces" t="Include">
+                  <e p="ICreatesConditions.cs" t="Include" />
+                  <e p="ICreatesConditionsBase.cs" t="Include" />
+                  <e p="ICreatesRelations.cs" t="Include" />
+                  <e p="IReasoningAPI.cs" t="Include" />
+                  <e p="IReducibleRating.cs" t="Include" />
+                  <e p="IUsesDevQueryResult.cs" t="Include" />
+                  <e p="IUsesQueryResults.cs" t="Include" />
+                  <e p="IUsesSetQueryResults.cs" t="Include" />
+                  <e p="Subscribers" t="Include">
+                    <e p="IUsesDatabaseQuerying.cs" t="Include" />
+                    <e p="IUsesMarsSceneEvaluation.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Pools.cs" t="Include" />
+                <e p="Queries" t="Include">
+                  <e p="BufferPool.cs" t="Include" />
+                  <e p="CommonQueryData.cs" t="Include" />
+                  <e p="Conditions.cs" t="Include" />
+                  <e p="Enums" t="Include">
+                    <e p="Exclusivity.cs" t="Include" />
+                  </e>
+                  <e p="Native" t="Include">
+                    <e p="NativeConditionRatings.cs" t="Include" />
+                  </e>
+                  <e p="PreviousSetMatches.cs" t="Include" />
+                  <e p="QueryArgs.cs" t="Include" />
+                  <e p="QueryMatchID.cs" t="Include" />
+                  <e p="QueryPipelineConfiguration.cs" t="Include" />
+                  <e p="QueryResult.cs" t="Include" />
+                  <e p="RelationMembership.cs" t="Include" />
+                  <e p="Relations.cs" t="Include" />
+                  <e p="RelationTraitCache.cs" t="Include" />
+                  <e p="Scheduling" t="Include">
+                    <e p="CachedTraitCollections.cs" t="Include" />
+                    <e p="DataTransform.cs" t="Include" />
+                    <e p="QueryStage.cs" t="Include" />
+                    <e p="QueryStageFrameFence.cs" t="Include" />
+                    <e p="SetQueryPipeline.cs" t="Include" />
+                    <e p="Stages" t="Include">
+                      <e p="AcquireHandlingStage.cs" t="Include" />
+                      <e p="CacheTraitReferencesStage.cs" t="Include" />
+                      <e p="ConditionMatchRatingStage.cs" t="Include" />
+                      <e p="DataAvailabilityCheckStage.cs" t="Include" />
+                      <e p="FindBestStandaloneMatchesStage.cs" t="Include" />
+                      <e p="FindMatchProposalsStage.cs" t="Include" />
+                      <e p="IncompleteGroupFilterStage.cs" t="Include" />
+                      <e p="MarkDataUsedStage.cs" t="Include" />
+                      <e p="MatchReductionStage.cs" t="Include" />
+                      <e p="Relations" t="Include">
+                        <e p="CacheRelationTraitReferencesStage.cs" t="Include" />
+                        <e p="FilterRelationMemberMatchesStage.cs" t="Include" />
+                        <e p="MarkSetDataUsedStage.cs" t="Include" />
+                        <e p="RelationRatingStage.cs" t="Include" />
+                        <e p="Search" t="Include">
+                          <e p="SetMatchSearchStage.cs" t="Include" />
+                        </e>
+                        <e p="SetAcquireHandlingStage.cs" t="Include" />
+                        <e p="SetDataAvailabilityCheckStage.cs" t="Include" />
+                        <e p="SetResultFillStage.cs" t="Include" />
+                      </e>
+                      <e p="ResultFillStage.cs" t="Include" />
+                      <e p="TraitRequirementFilterStage.cs" t="Include" />
+                    </e>
+                    <e p="StandaloneQueryPipeline.cs" t="Include" />
+                  </e>
+                  <e p="SetChildArgs.cs" t="Include" />
+                  <e p="SetChildDataCandidate.cs" t="Include" />
+                  <e p="SetMatchesBuffer.cs" t="Include" />
+                  <e p="SetOrderWeights.cs" t="Include" />
+                  <e p="SetQueryArgs.cs" t="Include" />
+                  <e p="SetQueryResult.cs" t="Include" />
+                  <e p="SetSearchData.cs" t="Include" />
+                </e>
+                <e p="RatingConfiguration.cs" t="Include" />
+                <e p="SetRatingConfiguration.cs" t="Include" />
+                <e p="SynthesizedObject" t="Include">
+                  <e p="Data" t="Include">
+                    <e p="SynthesizedMarkerId.cs" t="Include" />
+                    <e p="SynthesizedPlane.cs" t="Include" />
+                    <e p="SynthesizedReferencePoint.cs" t="Include" />
+                    <e p="SynthesizedTrackable.cs" t="Include" />
+                  </e>
+                  <e p="SynthesizedObject.cs" t="Include" />
+                  <e p="Trait" t="Include">
+                    <e p="SynthesizedAlignment.cs" t="Include" />
+                    <e p="SynthesizedBounds2D.cs" t="Include" />
+                    <e p="SynthesizedMarker.cs" t="Include" />
+                    <e p="SynthesizedPose.cs" t="Include" />
+                    <e p="SynthesizedSemanticTag.cs" t="Include" />
+                    <e p="SynthesizedTrait.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Behaviors" t="Include">
+                <e p="MARSCamera.cs" t="Include" />
+                <e p="MARSFaceManager.cs" t="Include" />
+                <e p="MARSFaceMeshVisualizer.cs" t="Include" />
+                <e p="MARSMarkerVisualizer.cs" t="Include" />
+                <e p="MARSPlaneVisualizer.cs" t="Include" />
+                <e p="MARSPointCloudVisualizer.cs" t="Include" />
+                <e p="MARSStickerPlacer.cs" t="Include" />
+                <e p="Materials" t="Include">
+                  <e p="PointCloud.shader" t="Include" />
+                </e>
+                <e p="MRFaceLandmarkVisualizer.cs" t="Include" />
+                <e p="SimulatedPlaneVisual.cs" t="Include" />
+              </e>
+              <e p="Conditions" t="Include">
+                <e p="AlignmentCondition.cs" t="Include" />
+                <e p="AngleAxisCondition.cs" t="Include" />
+                <e p="BoundedRangeCondition.cs" t="Include" />
+                <e p="Condition.cs" t="Include" />
+                <e p="ConditionBase.cs" t="Include" />
+                <e p="DependencyCondition.cs" t="Include" />
+                <e p="GeoFenceCondition.cs" t="Include" />
+                <e p="HasPoseCondition.cs" t="Include" />
+                <e p="IsFaceCondition.cs" t="Include" />
+                <e p="IsMarkerCondition.cs" t="Include" />
+                <e p="IsPlaneCondition.cs" t="Include" />
+                <e p="MarkerCondition.cs" t="Include" />
+                <e p="Multi" t="Include">
+                  <e p="FlatFloorCondition.cs" t="Include" />
+                  <e p="MultiCondition.cs" t="Include" />
+                  <e p="SubCondition.cs" t="Include" />
+                </e>
+                <e p="PlaneSizeCondition.cs" t="Include" />
+                <e p="Relations" t="Include">
+                  <e p="BoundedFloatRelation.cs" t="Include" />
+                  <e p="DistanceRelation.cs" t="Include" />
+                  <e p="ElevationRelation.cs" t="Include" />
+                  <e p="Multi" t="Include">
+                    <e p="MultiRelation.cs" t="Include" />
+                    <e p="SubRelation.cs" t="Include" />
+                    <e p="TestMultiRelation.cs" t="Include" />
+                  </e>
+                  <e p="NonBinaryRelation.cs" t="Include" />
+                  <e p="Relation.cs" t="Include" />
+                  <e p="RelationChildValues.cs" t="Include" />
+                  <e p="RelationInput.cs" t="Include" />
+                </e>
+                <e p="SemanticTagCondition.cs" t="Include" />
+                <e p="SimpleTagCondition.cs" t="Include" />
+              </e>
+              <e p="ConditionsAnalyzer.cs" t="Include" />
+              <e p="Debug" t="Include">
+                <e p="ProfilerLabels.cs" t="Include" />
+                <e p="QueryObjectMapping.cs" t="Include" />
+              </e>
+              <e p="Decals" t="Include">
+                <e p="ARFacepaint.cs" t="Include" />
+                <e p="DecalLayer.cs" t="Include" />
+              </e>
+              <e p="EditorComponents" t="Include">
+                <e p="CompositeCameraRenderer.cs" t="Include" />
+                <e p="EntityVisual.cs" t="Include" />
+                <e p="FaceInteractionTargets.cs" t="Include" />
+                <e p="FaceLandmarkInteractionTarget.cs" t="Include" />
+                <e p="InteractionTarget.cs" t="Include" />
+                <e p="MenuConstants.cs" t="Include" />
+                <e p="PlacementOverride.cs" t="Include" />
+                <e p="RedirectSelection.cs" t="Include" />
+                <e p="SimulationRenderSettings.cs" t="Include" />
+                <e p="SimulationViewCameraLighting.cs" t="Include" />
+              </e>
+              <e p="EditorOnlyDelegates.cs" t="Include" />
+              <e p="EditorOnlyEvents.cs" t="Include" />
+              <e p="Environment" t="Include">
+                <e p="GeneratedPlanesRoot.cs" t="Include" />
+                <e p="LayerPlaneData.cs" t="Include" />
+                <e p="MARSEnvironmentSceneInfo.cs" t="Include" />
+                <e p="MARSEnvironmentSettings.cs" t="Include" />
+                <e p="MRLayerPlaneData.cs" t="Include" />
+                <e p="PlaneDiscoveryVoxelGrid.cs" t="Include" />
+                <e p="PlaneExtractionSettings.cs" t="Include" />
+                <e p="PlaneVoxel.cs" t="Include" />
+                <e p="PlaneVoxelGenerationParams.cs" t="Include" />
+                <e p="PlaneVoxelGrid.cs" t="Include" />
+                <e p="VoxelPlaneFindingParams.cs" t="Include" />
+                <e p="XRayCollider.cs" t="Include" />
+                <e p="XRayRegion.cs" t="Include" />
+              </e>
+              <e p="extensions" t="Include">
+                <e p="CameraOffsetExtensions.cs" t="Include" />
+                <e p="IConditionExtensions.cs" t="Include" />
+                <e p="MRFaceExtensions.cs" t="Include" />
+              </e>
+              <e p="FallbackFace.cs" t="Include" />
+              <e p="Generated" t="Include">
+                <e p="CachedTraitCollections.Generated.cs" t="Include" />
+                <e p="CodeGenVersion.Generated.txt" t="Include" />
+                <e p="ConditionRatingsData.Generated.cs" t="Include" />
+                <e p="Conditions.Generated.cs" t="Include" />
+                <e p="FindMatchProposalsTransform.Generated.cs" t="Include" />
+                <e p="MARSDatabase.Conditions.Generated.cs" t="Include" />
+                <e p="MARSDatabase.Relations.Generated.cs" t="Include" />
+                <e p="MARSDatabase.Traits.Generated.cs" t="Include" />
+                <e p="MatchRatingDataTransform.Generated.cs" t="Include" />
+                <e p="Pools.Generated.cs" t="Include" />
+                <e p="QueryResult.Generated.cs" t="Include" />
+                <e p="RelationRatingTransform.Generated.cs" t="Include" />
+                <e p="Relations.Generated.cs" t="Include" />
+                <e p="RelationTraitCache.Generated.cs" t="Include" />
+                <e p="ResultFillStage.Generated.cs" t="Include" />
+                <e p="SetQueryPipeline.Generated.cs" t="Include" />
+              </e>
+              <e p="GUI" t="Include">
+                <e p="Attributes" t="Include">
+                  <e p="ComponentEditorAttribute.cs" t="Include" />
+                  <e p="ComponentMenuAttribute.cs" t="Include" />
+                  <e p="ComponentTooltipAttribute.cs" t="Include" />
+                  <e p="DecoratorAttribute.cs" t="Include" />
+                  <e p="DisplayNameAttribute.cs" t="Include" />
+                  <e p="MaxAttribute.cs" t="Include" />
+                  <e p="MinAttribute.cs" t="Include" />
+                  <e p="MinMaxAttribute.cs" t="Include" />
+                  <e p="MonoBehaviourComponentMenuAttribute.cs" t="Include" />
+                  <e p="OptionalConstraintAttribute.cs" t="Include" />
+                </e>
+                <e p="ColorPreset.cs" t="Include" />
+                <e p="Gizmo2D.cs" t="Include" />
+                <e p="IComponentList.cs" t="Include" />
+                <e p="MonoBehaviourComponentList.cs" t="Include" />
+              </e>
+              <e p="Handles" t="Include">
+                <e p="ApplyColorsToOthers.cs" t="Include" />
+                <e p="BillboardHandle.cs" t="Include" />
+                <e p="DistanceHandle.cs" t="Include" />
+                <e p="ElevationHandle.cs" t="Include" />
+                <e p="PlaneSizeHandle.cs" t="Include" />
+                <e p="ScaleLineWidthWithCameraDistance.cs" t="Include" />
+                <e p="ScaleWorldCanvasWithCameraDistance.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="Conditions" t="Include">
+                  <e p="IConfigurableMatchRating.cs" t="Include" />
+                  <e p="IRangeBoundingOptions.cs" t="Include" />
+                  <e p="ISpatialCondition.cs" t="Include" />
+                </e>
+                <e p="IAction.cs" t="Include" />
+                <e p="IHasEditorColor.cs" t="Include" />
+                <e p="IMatchAcquireHandler.cs" t="Include" />
+                <e p="IMatchLossHandler.cs" t="Include" />
+                <e p="IMatchTimeoutHandler.cs" t="Include" />
+                <e p="IMatchUpdateHandler.cs" t="Include" />
+                <e p="IMatchVisibilityHandler.cs" t="Include" />
+                <e p="IProvidesDeviceSimulationSettings.cs" t="Include" />
+                <e p="ISetMatchAcquireHandler.cs" t="Include" />
+                <e p="ISetMatchLossHandler.cs" t="Include" />
+                <e p="ISetMatchTimeoutHandler.cs" t="Include" />
+                <e p="ISetMatchUpdateHandler.cs" t="Include" />
+                <e p="ISpawnable.cs" t="Include" />
+                <e p="IUsesDeviceSimulationSettings.cs" t="Include" />
+              </e>
+              <e p="Landmarks" t="Include">
+                <e p="Actions" t="Include">
+                  <e p="FaceLandmarksAction.cs" t="Include" />
+                  <e p="PlaneLandmarksAction.cs" t="Include" />
+                </e>
+                <e p="Inputs" t="Include">
+                  <e p="ClosestLandmarkSettings.cs" t="Include" />
+                </e>
+                <e p="LandmarkController.cs" t="Include" />
+                <e p="Outputs" t="Include">
+                  <e p="LandmarkOutputEdge.cs" t="Include" />
+                  <e p="LandmarkOutputPoint.cs" t="Include" />
+                  <e p="LandmarkOutputPolygon.cs" t="Include" />
+                  <e p="LandmarkOutputPose.cs" t="Include" />
+                </e>
+              </e>
+              <e p="MARSAssetReference.cs" t="Include" />
+              <e p="MARSCore.cs" t="Include" />
+              <e p="MARSDebugSettings.cs" t="Include" />
+              <e p="MARSFallbackFaceLandmarks.cs" t="Include" />
+              <e p="MARSRuntimePrefabs.cs" t="Include" />
+              <e p="MARSSession.cs" t="Include" />
+              <e p="Modules" t="Include">
+                <e p="BuildPreset.cs" t="Include" />
+                <e p="Complexity.cs" t="Include" />
+                <e p="FunctionalityIslandExtensions.cs" t="Include" />
+                <e p="GeoLocationModule.cs" t="Include" />
+                <e p="MARSAssetModule.cs" t="Include" />
+                <e p="MARSSceneModule.cs" t="Include" />
+                <e p="MarsTimeModule.cs" t="Include" />
+                <e p="MARSVideoModule.cs" t="Include" />
+                <e p="ModuleOrders.cs" t="Include" />
+                <e p="Queries" t="Include">
+                  <e p="EvaluationSchedulerModule.cs" t="Include" />
+                  <e p="MARSQueryBackend.cs" t="Include" />
+                  <e p="ParallelQueryData.cs" t="Include" />
+                  <e p="ParallelSetData.cs" t="Include" />
+                  <e p="ParallelSetMemberData.cs" t="Include" />
+                  <e p="QueryPipelinesModule.cs" t="Include" />
+                </e>
+                <e p="ReasoningModule.cs" t="Include" />
+                <e p="RuntimeHandleContextModule.cs" t="Include" />
+                <e p="SlowTaskModule.cs" t="Include" />
+              </e>
+              <e p="ObjectInterface" t="Include">
+                <e p="MARSEntity.cs" t="Include" />
+                <e p="Proxy.cs" t="Include" />
+                <e p="ProxyGroup.cs" t="Include" />
+                <e p="Replicator.cs" t="Include" />
+              </e>
+              <e p="Providers" t="Include">
+                <e p="CameraOffsetProvider.cs" t="Include" />
+                <e p="CameraPoseProvider.cs" t="Include" />
+                <e p="Markers" t="Include">
+                  <e p="MarsMarkerDefinition.cs" t="Include" />
+                  <e p="MarsMarkerLibrary.cs" t="Include" />
+                </e>
+                <e p="RecordedDataProviders" t="Include">
+                  <e p="RecordedCameraProvider.cs" t="Include" />
+                  <e p="RecordedPlanesProvider.cs" t="Include" />
+                  <e p="RecordedPointCloudProvider.cs" t="Include" />
+                  <e p="RecordedTrackablesProvider.cs" t="Include" />
+                </e>
+                <e p="SimulatedProviders" t="Include">
+                  <e p="CameraFPSModeHandler.cs" t="Include" />
+                  <e p="SimulatedCameraProvider.cs" t="Include" />
+                  <e p="SimulatedDiscoveryPlanesProvider.cs" t="Include" />
+                  <e p="SimulatedDiscoveryPointCloudProvider.cs" t="Include" />
+                  <e p="SimulatedDiscoverySessionProvider.cs" t="Include" />
+                  <e p="SimulatedMarkerProvider.cs" t="Include" />
+                  <e p="SimulatedObject.cs" t="Include" />
+                  <e p="SimulatedPlanesProvider.cs" t="Include" />
+                  <e p="SimulatedTrackablesProvider.cs" t="Include" />
+                </e>
+                <e p="StubPlanesProvider.cs" t="Include" />
+                <e p="StubPointCloudProvider.cs" t="Include" />
+                <e p="StubSessionProvider.cs" t="Include" />
+                <e p="UnityCloudDataStorage" t="Include">
+                  <e p="ApplicationStorage" t="Include">
+                    <e p="ApplicationStorageKeyValueClient.cs" t="Include" />
+                    <e p="ApplicationStoragePrivateKeyValueClient.cs" t="Include" />
+                    <e p="HttpPlatformMethod.cs" t="Include" />
+                    <e p="ICloudPlatform.cs" t="Include" />
+                    <e p="IHttpPlatform.cs" t="Include" />
+                    <e p="RestClient.cs" t="Include" />
+                    <e p="UnityApplicationStorage.cs" t="Include" />
+                    <e p="UnityCloudPlatform.cs" t="Include" />
+                    <e p="UnityHttpPlatform.cs" t="Include" />
+                  </e>
+                  <e p="UnityCloudDataStorageModule.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Reasoning APIs" t="Include">
+                <e p="FloorReasoningAPI.cs" t="Include" />
+                <e p="GeoDuplicationReasoningAPI.cs" t="Include" />
+                <e p="InViewReasoningAPI.cs" t="Include" />
+                <e p="TestReasoningAPI.cs" t="Include" />
+              </e>
+              <e p="SessionRecording" t="Include">
+                <e p="CameraPoseRecorder.cs" t="Include" />
+                <e p="CameraPoseRecording.cs" t="Include" />
+                <e p="DataRecorder.cs" t="Include" />
+                <e p="DataRecording.cs" t="Include" />
+                <e p="PlaneEventMarker.cs" t="Include" />
+                <e p="PlaneEventType.cs" t="Include" />
+                <e p="PlaneFindingRecorder.cs" t="Include" />
+                <e p="PlaneFindingRecording.cs" t="Include" />
+                <e p="PointCloudEventMarker.cs" t="Include" />
+                <e p="PointCloudRecorder.cs" t="Include" />
+                <e p="PointCloudRecording.cs" t="Include" />
+                <e p="SerializedPointCloudData.cs" t="Include" />
+                <e p="SessionRecordingInfo.cs" t="Include" />
+                <e p="SessionRecordingModule.cs" t="Include" />
+                <e p="SessionRecordingSettings.cs" t="Include" />
+                <e p="SimulatableDirector.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="ExcludeInMARSEditor.cs" t="Include" />
+                <e p="MARSRuntimeUtils.cs" t="Include" />
+                <e p="MetaEnumerator.cs" t="Include" />
+                <e p="ParallelSparseArrays.cs" t="Include" />
+                <e p="ParallelSparseLists.cs" t="Include" />
+                <e p="PlaneUtils.cs" t="Include" />
+                <e p="RatingMetaEnumerator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CameraPreview.shader" t="Include" />
+              <e p="CompositeBlit.shader" t="Include" />
+              <e p="DepthMask.shader" t="Include" />
+              <e p="DoubleSided.shader" t="Include" />
+              <e p="DoubleSidedUnlitTransparent.shader" t="Include" />
+              <e p="FaceDecalShader.shader" t="Include" />
+              <e p="FloorVisualShader.shader" t="Include" />
+              <e p="GizmoSolidColor.shader" t="Include" />
+              <e p="RoomXRay.shader" t="Include" />
+              <e p="Sprites-Overlay.shader" t="Include" />
+              <e p="TexturedFresnel" t="Include">
+                <e p="TexturedStableFresnel.shader" t="Include" />
+                <e p="TexturedStableFresnelCommon.cginc" t="Include" />
+              </e>
+              <e p="XRayCommon.cginc" t="Include" />
+            </e>
+            <e p="Unity.Labs.MARS.asmdef" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AssertUtils.cs" t="Include" />
+              <e p="ContentHierarchyCacheTests.cs" t="Include" />
+              <e p="Database" t="Include">
+                <e p="DatabaseTestData.cs" t="Include" />
+                <e p="ExtensionMethods.cs" t="Include" />
+                <e p="FilterRelationMemberMatchesStageTests.cs" t="Include" />
+                <e p="MARSDatabaseBestMatchTests.cs" t="Include" />
+                <e p="MARSDatabaseProviderTests.cs" t="Include" />
+                <e p="MARSDatabaseQueryTests.cs" t="Include" />
+                <e p="MARSDatabaseSetQueryTests.cs" t="Include" />
+                <e p="MARSTrackableProcessingJobTests.cs" t="Include" />
+                <e p="Match Rating" t="Include">
+                  <e p="BoundedRelationMatchRatingTestBase.cs" t="Include" />
+                  <e p="Components" t="Include">
+                    <e p="TestMultiTypeRelation.cs" t="Include" />
+                    <e p="TestThreeTypeCondition.cs" t="Include" />
+                    <e p="TestTwoTypeCondition.cs" t="Include" />
+                  </e>
+                  <e p="DistanceRelationMatchRatingTests.cs" t="Include" />
+                  <e p="ElevationRelationMatchRatingTests.cs" t="Include" />
+                  <e p="PlaneSizeMatchRatingTests.cs" t="Include" />
+                  <e p="TagConditionMatchRatingTests.cs" t="Include" />
+                </e>
+                <e p="MatchConflictTestData.cs" t="Include" />
+                <e p="MatchConflictTestInput.cs" t="Include" />
+                <e p="MatchIntersectionTests.cs" t="Include" />
+                <e p="MultiTraitMatchRatingTests.cs" t="Include" />
+                <e p="PreviousSetMatchesTests.cs" t="Include" />
+                <e p="QueryPipelineTests.cs" t="Include" />
+                <e p="QueryTestData.cs" t="Include" />
+                <e p="RatingConfigurationTests.cs" t="Include" />
+                <e p="Registration" t="Include">
+                  <e p="LowLevelSetMemberRegistrationTests.cs" t="Include" />
+                  <e p="LowLevelSetRegistrationTests.cs" t="Include" />
+                  <e p="LowLevelStandaloneContextRegistrationTests.cs" t="Include" />
+                </e>
+                <e p="RelationRatingStageTests.cs" t="Include" />
+                <e p="SetMatchSearchStageTests.cs" t="Include" />
+                <e p="SetPipelineTests.cs" t="Include" />
+                <e p="TestConditions.cs" t="Include" />
+                <e p="TestExtensionMethods.cs" t="Include" />
+                <e p="TestUtils.cs" t="Include" />
+                <e p="TraitPresenceFilterStageTests.cs" t="Include" />
+              </e>
+              <e p="EvaluationSchedulerModuleTests.cs" t="Include" />
+              <e p="Integrations" t="Include">
+                <e p="UnityCloudDataStorageModuleTests.cs" t="Include" />
+              </e>
+              <e p="ITestCondition.cs" t="Include" />
+              <e p="SetMatchesBufferTests.cs" t="Include" />
+              <e p="SlowTaskModuleTests.cs" t="Include" />
+              <e p="TestMarsDataUser.cs" t="Include" />
+              <e p="Unity.Labs.MARS.EditorTests.asmdef" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="MetaEnumeratorTest.cs" t="Include" />
+                <e p="MetaEnumeratorTestData.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Database" t="Include">
+                <e p="Components" t="Include">
+                  <e p="TestFloatRelation.cs" t="Include" />
+                  <e p="TestMRObject.cs" t="Include" />
+                  <e p="TestPoseRelation.cs" t="Include" />
+                  <e p="TestRelation.cs" t="Include" />
+                </e>
+                <e p="NonRequiredChildrenTest.cs" t="Include" />
+                <e p="Performance" t="Include">
+                  <e p="Condition" t="Include">
+                    <e p="AlignmentConditionRatingPerformance.cs" t="Include" />
+                    <e p="DistanceRatingPerformance.cs" t="Include" />
+                    <e p="ElevationRatingPerformance.cs" t="Include" />
+                    <e p="PlaneSizeRatingPerformance.cs" t="Include" />
+                    <e p="TagConditionRatingPerformance.cs" t="Include" />
+                  </e>
+                  <e p="DatabasePerformance.cs" t="Include" />
+                  <e p="DatabasePerformanceTest.cs" t="Include" />
+                  <e p="PerfTestMultiProvider.cs" t="Include" />
+                  <e p="Provider" t="Include">
+                    <e p="AddDataTest.cs" t="Include" />
+                    <e p="AddTraitsTest.cs" t="Include" />
+                    <e p="RemoveDataTest.cs" t="Include" />
+                    <e p="RemoveTraitDataTest.cs" t="Include" />
+                    <e p="UpdateDataTest.cs" t="Include" />
+                    <e p="UpdateTraitsTest.cs" t="Include" />
+                  </e>
+                  <e p="TestFace.cs" t="Include" />
+                  <e p="TimedConditionPerformanceTest.cs" t="Include" />
+                  <e p="TimedPerformanceTest.cs" t="Include" />
+                  <e p="TimedRelationPerformanceTest.cs" t="Include" />
+                </e>
+                <e p="QueryPipeline" t="Include">
+                  <e p="QueryRegistrationTest.cs" t="Include" />
+                  <e p="QueryRegistrationTestList.cs" t="Include" />
+                  <e p="RuntimeQueryTestList.cs" t="Include" />
+                </e>
+                <e p="RuntimeQueryTest.cs" t="Include" />
+                <e p="SynthesizedObject" t="Include">
+                  <e p="AddRemoveSynthesizedTest.cs" t="Include" />
+                  <e p="MarsRuntimeTest.cs" t="Include" />
+                  <e p="QueryTestObjectSettings.cs" t="Include" />
+                  <e p="SynthesizedChildTest.cs" t="Include" />
+                  <e p="SynthesizedObjectTest.cs" t="Include" />
+                  <e p="SynthesizedObjectTestList.cs" t="Include" />
+                  <e p="SynthesizedObjectTestSettings.cs" t="Include" />
+                  <e p="UpdateSynthesizedTest.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Unity.Labs.MARS.Tests.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="com.unity.labs.module-loader" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Editors" t="Include">
+              <e p="DefaultProviderPropertyDrawer.cs" t="Include" />
+              <e p="FunctionalityInjectionModuleEditor.cs" t="Include" />
+              <e p="FunctionalityIslandEditor.cs" t="Include" />
+              <e p="ModuleLoaderCoreDrawer.cs" t="Include" />
+              <e p="ModuleLoaderDebugSettingsEditor.cs" t="Include" />
+              <e p="ModuleLoaderSettingsEditor.cs" t="Include" />
+              <e p="ModuleLoaderSettingsOverrideEditor.cs" t="Include" />
+            </e>
+            <e p="ModuleLoaderEditorCallbacks.cs" t="Include" />
+            <e p="Unity.Labs.ModuleLoader.Editor.asmdef" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="Functionality Injection" t="Include">
+              <e p="IFunctionalityProvider.cs" t="Include" />
+              <e p="IFunctionalitySubscriber.cs" t="Include" />
+            </e>
+            <e p="Modules" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="ImmortalModuleAttribute.cs" t="Include" />
+                <e p="ModuleAssetCallbackOrderAttribute.cs" t="Include" />
+                <e p="ModuleBehaviorCallbackOrderAttribute.cs" t="Include" />
+                <e p="ModuleBuildCallbackOrderAttribute.cs" t="Include" />
+                <e p="ModuleOrderAttribute.cs" t="Include" />
+                <e p="ModuleSceneCallbackOrderAttribute.cs" t="Include" />
+                <e p="ModuleUnloadOrderAttribute.cs" t="Include" />
+              </e>
+              <e p="IModule.cs" t="Include" />
+              <e p="IModuleAssetCallbacks.cs" t="Include" />
+              <e p="IModuleBehaviorCallbacks.cs" t="Include" />
+              <e p="IModuleBuildCallbacks.cs" t="Include" />
+              <e p="IModuleDependency.cs" t="Include" />
+              <e p="IModuleSceneCallbacks.cs" t="Include" />
+            </e>
+            <e p="Providers" t="Include">
+              <e p="IProvidesFunctionalityInjection.cs" t="Include" />
+            </e>
+            <e p="Subscribers" t="Include">
+              <e p="IUsesFunctionalityInjection.cs" t="Include" />
+            </e>
+            <e p="Unity.Labs.ModuleLoader.Interfaces.asmdef" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="ModuleCallbacksBehaviour.cs" t="Include" />
+              <e p="ModuleLoaderCore.cs" t="Include" />
+              <e p="ModuleLoaderDebugSettings.cs" t="Include" />
+              <e p="ModuleLoaderSettingsOverride.cs" t="Include" />
+              <e p="Modules" t="Include">
+                <e p="FunctionalityInjectionModule.cs" t="Include" />
+                <e p="FunctionalityIsland.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Unity.Labs.ModuleLoader.asmdef" t="Include" />
+          </e>
+          <e p="Samples" t="Include">
+            <e p="Example" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Modules" t="Include">
+                  <e p="EditorModule.cs" t="Include" />
+                  <e p="EditorSettingsModule.cs" t="Include" />
+                </e>
+                <e p="Unity.Labs.ModuleLoader.Example.Editor.asmdef" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="Providers" t="Include">
+                  <e p="IProviderExample.cs" t="Include" />
+                  <e p="IProviderExample2.cs" t="Include" />
+                  <e p="IProvidesLogging.cs" t="Include" />
+                </e>
+                <e p="Subscribers" t="Include">
+                  <e p="ISubscriberExample.cs" t="Include" />
+                  <e p="ISubscriberExample2.cs" t="Include" />
+                  <e p="IUsesLogging.cs" t="Include" />
+                </e>
+                <e p="Unity.Labs.ModuleLoader.Example.Interfaces.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="AssemblyInfo.cs" t="Include" />
+                <e p="Modules" t="Include">
+                  <e p="BehaviorModule.cs" t="Include" />
+                  <e p="DependentModule.cs" t="Include" />
+                  <e p="SceneModule.cs" t="Include" />
+                  <e p="SettingsModule.cs" t="Include" />
+                  <e p="VanillaModule.cs" t="Include" />
+                </e>
+                <e p="Providers" t="Include">
+                  <e p="ExampleProvider.cs" t="Include" />
+                  <e p="LoggingProvider.cs" t="Include" />
+                </e>
+                <e p="Subscribers" t="Include">
+                  <e p="SubscriberExample.cs" t="Include" />
+                  <e p="UsesLogging.cs" t="Include" />
+                </e>
+                <e p="Unity.Labs.ModuleLoader.Example.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ModuleLoaderTests.cs" t="Include" />
+              <e p="Unity.Labs.ModuleLoader.EditorTests.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="com.unity.labs.utils" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="ConditionalCompilationUtility.cs" t="Include" />
+            <e p="EditorMaterialUtils.cs" t="Include" />
+            <e p="EditorPrefsUtils.cs" t="Include" />
+            <e p="EditorScriptableSettings.cs" t="Include" />
+            <e p="EditorUtils.cs" t="Include" />
+            <e p="GUI" t="Include">
+              <e p="EnumDisplayPropertyDrawer.cs" t="Include" />
+              <e p="FlagsPropertyDrawer.cs" t="Include" />
+            </e>
+            <e p="OptionalDependencyUtility.cs" t="Include" />
+            <e p="ScriptableSettingsInitializer.cs" t="Include" />
+            <e p="ScriptableSettingsProvider.cs" t="Include" />
+            <e p="Unity.Labs.Utils.Editor.asmdef" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Attributes" t="Include">
+              <e p="EnumDisplayAttribute.cs" t="Include" />
+              <e p="FlagsPropertyAttribute.cs" t="Include" />
+              <e p="OptionalDependencyAttribute.cs" t="Include" />
+              <e p="RequiresLayerAttribute.cs" t="Include" />
+              <e p="RequiresTagAttribute.cs" t="Include" />
+              <e p="ScriptableSettingsPathAttribute.cs" t="Include" />
+            </e>
+            <e p="BoundsUtils.cs" t="Include" />
+            <e p="CachedComponentFilter.cs" t="Include" />
+            <e p="CoefficientUtils.cs" t="Include" />
+            <e p="CollectionPool.cs" t="Include" />
+            <e p="ComponentUtils.cs" t="Include" />
+            <e p="DebugDraw.cs" t="Include" />
+            <e p="EditorMonoBehaviour.cs" t="Include" />
+            <e p="EnumValues.cs" t="Include" />
+            <e p="extensions" t="Include">
+              <e p="CameraExtensions.cs" t="Include" />
+              <e p="CollectionExtensions.cs" t="Include" />
+              <e p="DictionaryExtensions.cs" t="Include" />
+              <e p="GameObjectExtensions.cs" t="Include" />
+              <e p="GuidExtensions.cs" t="Include" />
+              <e p="HashSetExtensions.cs" t="Include" />
+              <e p="LayerMaskExtensions.cs" t="Include" />
+              <e p="ListExtensions.cs" t="Include" />
+              <e p="MonoBehaviourExtensions.cs" t="Include" />
+              <e p="PoseExtensions.cs" t="Include" />
+              <e p="QuaternionExtensions.cs" t="Include" />
+              <e p="StopwatchExtensions.cs" t="Include" />
+              <e p="StringExtensions.cs" t="Include" />
+              <e p="TransformExtensions.cs" t="Include" />
+              <e p="TypeExtensions.cs" t="Include" />
+            </e>
+            <e p="GameObjectUtils.cs" t="Include" />
+            <e p="GeometryUtils.cs" t="Include" />
+            <e p="GUI" t="Include">
+              <e p="ScreenGUIUtils.cs" t="Include" />
+            </e>
+            <e p="GuidUtil.cs" t="Include" />
+            <e p="MaterialUtils.cs" t="Include" />
+            <e p="MathUtility.cs" t="Include" />
+            <e p="NativeArrayUtils.cs" t="Include" />
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="OnDestroyNotifier.cs" t="Include" />
+            <e p="ReflectionUtils.cs" t="Include" />
+            <e p="ScriptableSettings.cs" t="Include" />
+            <e p="SerializableGuid.cs" t="Include" />
+            <e p="SerializableGuidUtil.cs" t="Include" />
+            <e p="TagManager.cs" t="Include" />
+            <e p="TextureUtils.cs" t="Include" />
+            <e p="UndoBlock.cs" t="Include" />
+            <e p="Unity.Labs.Utils.asmdef" t="Include" />
+            <e p="UnityObjectUtils.cs" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BoundsUtilsTests.cs" t="Include" />
+              <e p="CompilationTest.cs" t="Include" />
+              <e p="ComponentUtilsTests.cs" t="Include" />
+              <e p="EditorPrefsUtilsTests.cs" t="Include" />
+              <e p="GameObjectExtensionsTests.cs" t="Include" />
+              <e p="GameObjectUtilsTests.cs" t="Include" />
+              <e p="GeometryUtilsTests.cs" t="Include" />
+              <e p="LayerMaskTests.cs" t="Include" />
+              <e p="MaterialUtilsTests.cs" t="Include" />
+              <e p="MonoBehaviourExtensionsTests.cs" t="Include" />
+              <e p="PoseExtensionsTests.cs" t="Include" />
+              <e p="QuaternionExtensionsTests.cs" t="Include" />
+              <e p="ScriptableSettingsTests.cs" t="Include" />
+              <e p="TagManagerTests.cs" t="Include" />
+              <e p="TransformExtensionsTests.cs" t="Include" />
+              <e p="TypeExtensionsTests.cs" t="Include" />
+              <e p="Unity.Labs.Utils.EditorTests.asmdef" t="Include" />
+              <e p="UnityObjectUtilsTests.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="TestImage.cs" t="Include" />
+              <e p="Unity.Labs.Utils.Tests.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="com.unity.prefab-handles" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Contexts" t="Include">
+              <e p="EditorHandleContext.cs" t="Include" />
+              <e p="EditorWindowContext.cs" t="Include" />
+              <e p="HandlePreviewScene.cs" t="Include" />
+              <e p="SceneViewContext.cs" t="Include" />
+            </e>
+            <e p="Custom Editors" t="Include">
+              <e p="EditorHandleStateColorEditor.cs" t="Include" />
+              <e p="HandleStateColorEditor.cs" t="Include" />
+            </e>
+            <e p="UnityEditor.PrefabHandles.asmdef" t="Include" />
+            <e p="Utility" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="ToolsUtility.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Core" t="Include">
+              <e p="DefaultHandle.cs" t="Include" />
+              <e p="DragInfos.cs" t="Include" />
+              <e p="DragTranslation.cs" t="Include" />
+              <e p="HandleBehaviour.cs" t="Include" />
+              <e p="HandleContext.cs" t="Include" />
+              <e p="HoverInfos.cs" t="Include" />
+              <e p="IHandleContext.cs" t="Include" />
+              <e p="InteractionState.cs" t="Include" />
+              <e p="InteractiveHandle.cs" t="Include" />
+              <e p="RuntimeHandleContext.cs" t="Include" />
+            </e>
+            <e p="Handles" t="Include">
+              <e p="PositionHandle.cs" t="Include" />
+              <e p="RotationHandle.cs" t="Include" />
+              <e p="RotationInfo.cs" t="Include" />
+              <e p="RotatorHandle.cs" t="Include" />
+              <e p="ScaleHandle.cs" t="Include" />
+              <e p="ScalingInfo.cs" t="Include" />
+              <e p="Slider1DHandle.cs" t="Include" />
+              <e p="Slider2DHandle.cs" t="Include" />
+              <e p="SliderHandleBase.cs" t="Include" />
+              <e p="TranslationInfo.cs" t="Include" />
+            </e>
+            <e p="Picking" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Targets" t="Include">
+                <e p="BoxPickingTarget.cs" t="Include" />
+                <e p="LinePickingTarget.cs" t="Include" />
+                <e p="MeshPickingTarget.cs" t="Include" />
+                <e p="PickingTarget.cs" t="Include" />
+              </e>
+              <e p="UnityEngine.PrefabHandles.Picking.asmdef" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="AddComponentMenuNames.cs" t="Include" />
+                <e p="MathUtility.cs" t="Include" />
+                <e p="PickingHit.cs" t="Include" />
+                <e p="ScreenDistanceUtility.cs" t="Include" />
+                <e p="ScreenDistanceUtility_Mesh.cs" t="Include" />
+                <e p="ScreenPickingUtility.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UnityEngine.PrefabHandles.asmdef" t="Include" />
+            <e p="Utility" t="Include">
+              <e p="AddComponentMenuNames.cs" t="Include" />
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="ComponentCache.cs" t="Include" />
+              <e p="EditorHandleStateColors.cs" t="Include" />
+              <e p="HandleStateColors.cs" t="Include" />
+              <e p="HandleUtility.cs" t="Include" />
+              <e p="LineRendererConstraint.cs" t="Include" />
+              <e p="ScaleWithCameraDistance.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Samples" t="Include">
+            <e p="Editor Tools" t="Include">
+              <e p="MoveTool.cs" t="Include" />
+              <e p="UnityEditor.ManipulationTools.asmdef" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="BasicRuntimeContextController.cs" t="Include" />
+              <e p="MoveTransformWithHandle.cs" t="Include" />
+              <e p="UnityEngine.PrefabHandles.RuntimeSample.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="ULSFaceTracker.Editor.csproj" t="IncludeRecursive" />
+      <e p="ULSFaceTracker.Runtime.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.Interfaces.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.Navmesh.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.UseCaseContent.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.MARS.UseCaseContent.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.Example.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.Example.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.Example.Interfaces.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.ModuleLoader.Interfaces.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.Utils.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.Utils.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.Utils.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.Utils.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.XRSDKProviders.csproj" t="IncludeRecursive" />
+      <e p="Unity.Labs.XRSDKProviders.Editor.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.ManipulationTools.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.PrefabHandles.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.PrefabHandles.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.PrefabHandles.Picking.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.PrefabHandles.RuntimeSample.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

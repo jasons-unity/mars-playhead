@@ -25,9 +25,5 @@ MonoBehaviour:
   m_ShowSimulatedData: 1
   m_Environments:
   - {fileID: 136260775479693561, guid: 50bf8b1c017c36448be3b48affb7a57b, type: 3}
-  - {fileID: 300559499574368289, guid: 3eee0f597d4084242845c330691c7ed6, type: 3}
-  - {fileID: 7313898990766806336, guid: b6948e53ede4a1548b43c1253098528a, type: 3}
   m_EnvironmentRecordings:
   - {fileID: 1791721622252286251, guid: 5d721da85b53a0e4499870e72a37123f, type: 2}
-  - {fileID: 8195501118100034236, guid: 6e48e49e4289080409951c8f1fdfa07a, type: 2}
-  - {fileID: -1255461536164573747, guid: cd6120428f46141459f510ad44f3a85e, type: 2}
