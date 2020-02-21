@@ -1,6 +1,0 @@
-{
-    "references": [
-        "UnityEngine.SpatialTracking",
-        "Unity.Postprocessing.Runtime"
-    ]
-}

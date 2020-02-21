@@ -9,6 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14cf7ceb4b4a39047a1ae1ed2734b188, type: 3}
-  m_Name: SimulatedDiscoveryModule
+  m_Script: {fileID: 11500000, guid: 0d939af64670248c0b3debff57bad4b6, type: 3}
+  m_Name: Default Island
   m_EditorClassIdentifier: 
+  m_DefaultProviders: []
+  m_PlatformOverrides: []

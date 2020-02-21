@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MARSSceneModule
   m_EditorClassIdentifier: 
   m_SimulateInPlayMode: 1
-  m_SimulationIsland: {fileID: 11400000, guid: 438e803fb22594c15930747d18171c69, type: 2}
+  m_SimulationIsland: {fileID: 11400000, guid: ec4a7a5772f004f0a90d8df7d3ad44a0, type: 2}
   m_SimulateDiscovery: 1
-  m_SimulatedDiscoveryIsland: {fileID: 11400000, guid: b32c2a649aed5d745a386e1ec7dc4068,
+  m_SimulatedDiscoveryIsland: {fileID: 11400000, guid: 8bbbc60efbf5b4907881baf0bd3fa651,
     type: 2}

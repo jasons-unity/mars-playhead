@@ -4,37 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/Hello AR.unity
-    guid: 1fbaa6ae7ded6a54fb9824d9927fa64a
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/Hello Face.unity
-    guid: 20bce6762d7994d48921798c9058c53e
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/Hello Face Expressions.unity
-    guid: 7ac21f4df263cad43bd4ca18dc4ad319
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/MarkerTrackingTest.unity
-    guid: 51ccc81740eeb49669c660e892891336
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/ComplexConditionsTest.unity
-    guid: 5f6f5f145fcd53f45b84846995835ef3
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/DataExclusivityTest.unity
-    guid: ad4d230e2ce800f4cb1009c424a6f96f
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/ProxyGroupsTest.unity
-    guid: caa72ea37a791ff4ab87c943ef7dc2f1
-  - enabled: 1
-    path: Assets/NavMesh/Hello Navmesh.unity
-    guid: a5f39c1b78b1643179138e69ec44dc00
-  - enabled: 1
-    path: Assets/UseCaseContent/Sample Scenes/Face Mask Sample.unity
-    guid: f17391b5696bd0f4996f611994854108
-  - enabled: 1
-    path: Assets/UseCaseContent/Test Scenes/FaceLandmarksTest.unity
-    guid: ea96a5b1f7ea4374a9d22018b0d04cd3
-  m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e6cb9cef617904b1fb28d26d02ead4bd,
-      type: 2}
+  m_Scenes: []
+  m_configObjects: {}

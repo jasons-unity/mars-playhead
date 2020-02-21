@@ -1,9 +1,0 @@
-{
-  "name": "com.unity.labs.utils",
-  "displayName": "Labs Utilities",
-  "version": "0.1.1-preview",
-  "unity": "2018.4",
-  "unityRelease": "2f1",
-  "description": "Common utility classes for Labs projects\nRefer to API documentation for details. Some particularly useful utilities include:\n\u25aa Geometry Utilities\n  \u25aa Point of closest approach\n  \u25aa Closest edge of a polygon\n  \u25aa Check if point inside of polygon\n  \u25aa Compute 2D convex hull\n\u25aa Collection pool\n\u25aa Math Utilities\n  \u25aa Bounds extensions\n  \u25aa Quaternion extensions\n\u25aa Editor GUI\n  \u25aa Flags Property Drawer\n\u25aa Scriptable Settings (serialized project settings)\n\u25aa Conditional Compilation Utility",
-  "type": "library"
-}

@@ -13,7 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - MR Plane
+  - 
+  - 
   - 
   - 
   - 
@@ -36,7 +37,6 @@ TagManager:
   - 
   - 
   - Environment
-  - SimulatedQueryObjects
   m_SortingLayers:
   - name: Default
     uniqueID: 0

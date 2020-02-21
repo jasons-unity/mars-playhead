@@ -12,16 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842c64ee80cff403eb6ca294c8fe5907, type: 3}
   m_Name: ModuleLoaderCore
   m_EditorClassIdentifier: 
-  m_ExcludedTypes:
-  - Unity.Labs.ModuleLoader.Example.SceneModule
-  - Unity.Labs.ModuleLoader.Example.EditorSettingsModule
-  - Unity.Labs.ModuleLoader.Example.EditorModule
-  - Unity.Labs.ModuleLoader.Example.DependentModule
-  - Unity.Labs.ModuleLoader.Example.BehaviorModule
-  - Unity.Labs.ModuleLoader.Example.SettingsModule
-  - Unity.Labs.ModuleLoader.Example.VanillaModule
-  - Unity.Labs.ModuleLoader.Tests.ModuleLoaderTests+TestModule3
-  - Unity.Labs.ModuleLoader.Tests.ModuleLoaderTests+TestModule2
-  - Unity.Labs.ModuleLoader.Tests.ModuleLoaderTests+TestModule1
+  m_ExcludedTypes: []
   m_SettingsOverride: {fileID: 0}
   m_PlatformOverrides: []

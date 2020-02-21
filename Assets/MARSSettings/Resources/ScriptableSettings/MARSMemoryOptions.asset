@@ -22,3 +22,4 @@ MonoBehaviour:
   DataDirtyStatesCapacity: 4
   DataDirtyStatesPreAllocationCount: 96
   TraitDictionaryListCapacity: 4
+  SetMemberCapacityMultiplier: 3

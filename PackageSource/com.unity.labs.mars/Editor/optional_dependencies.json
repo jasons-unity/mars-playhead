@@ -1,6 +1,0 @@
-{
-    "references": [
-        "Unity.Postprocessing.Editor",
-        "Unity.Postprocessing.Runtime"
-    ]
-}

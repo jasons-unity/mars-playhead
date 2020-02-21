@@ -5,13 +5,14 @@ using System.Linq;
 using Unity.Labs.MARS;
 using UnityEngine;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class Playhead : MonoBehaviour
 {
     float speed = 5f;
     private Vector3 startPosition;
     private Vector3 endPosition;
     public LandmarkController polygonLandmark;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -25,31 +26,17 @@ public class Playhead : MonoBehaviour
         //GetComponent<Renderer>().enabled = false;
         startPosition = new Vector3(0,0,0);
         endPosition = new Vector3(10,0,0);
+        
     }
     
     void Update()
     {
         //UpdatePlayheadPosition(gameObject);
-        var edgeOutput = polygonLandmark.output as LandmarkOutputPolygon;
-        //var BoundingRect = edgeOutput.AvailableLandmarkDefinitions;
-        
-        if (edgeOutput == null)
-        {
-            // The assigned landmark is not set to type “edge”
-        }
-        else
-        {
-            // Do something with the data in edgeOutput, such
-            //Debug.Log(edgeOutput.pose + " -> " + edgeOutput.pose);
-            //Debug.Log(edgeOutput.localVertices.Count);
-        }
-    }
+        var boundingRec = polygonLandmark.output as LandmarkOutputPolygon;
+        boundingRec.dataChanged += GetParentSize;
 
-    public void test(LandmarkController l)
-    {
-        var edgeOutput = l.output as LandmarkOutputPolygon;
-        Debug.Log(edgeOutput.pose + " -> " + edgeOutput.pose);
-        Debug.Log(edgeOutput.worldVertices.Count);
+
+
     }
 
     void UpdatePlayheadPosition(GameObject go)
@@ -66,9 +53,11 @@ public class Playhead : MonoBehaviour
 
     }
 
-    public void GetParentSize()
+    public void GetParentSize(ICalculateLandmarks l)
     {
-        // Can I get the size of the generated plane?
+        var boundingRec = l as LandmarkOutputPolygon;
+        Debug.Log(boundingRec.localVertices.Count);
+        Debug.Log(boundingRec.worldVertices.Count);
     }
 
 }
