@@ -114,6 +114,7 @@ public class Playhead : MonoBehaviour
         {
             Debug.Log("PlayTone");
             var playTone = other.GetComponentInParent<PlayTone>();
+            playTone.frequency = Mathf.Abs(other.transform.rotation.eulerAngles.y) * 55;
             playTone.gain = 0.5f;
         }
 
