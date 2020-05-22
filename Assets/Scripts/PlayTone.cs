@@ -13,31 +13,7 @@ public class PlayTone : MonoBehaviour
     private double phase;
     private double sampling_frequency = 48000.0;
 
-    private float gain = 0;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-        //GetComponent<AudioSource>().playOnAwake = false;
-        //GetComponent<AudioSource>().clip = tone;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        frequency = transform.position.x * 100;
-    }
-
-    private void OnTriggerEnter(Collider col)
-    {
-        gain = 0.5f;
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        gain = 0;
-    }
+    public float gain = 0f;
 
     private void OnAudioFilterRead(float[] data, int channels)
     {
@@ -60,10 +36,10 @@ public class PlayTone : MonoBehaviour
         }
 
         // When we have data to play
-        if (!data.First().Equals(0.0f))
-        {
-            var startValue = data[1000];
-
-        }
+        // if (!data.First().Equals(0.0f))
+        // {
+        //     var startValue = data[1000];
+        //
+        // }
     }
 }

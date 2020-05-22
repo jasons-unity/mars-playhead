@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PackageSource/com.unity.labs.mars" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PackageSource/com.unity.labs.mars/Content" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PackageSource/com.unity.labs.mars/Interfaces" vcs="Git" />
   </component>
 </project>
