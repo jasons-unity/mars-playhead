@@ -44,6 +44,7 @@ public class Playhead : MonoBehaviour
             _init = true;
         }
         UpdatePlayHeadPosition();
+        
     }
 
     private void UpdatePlayHeadPosition()

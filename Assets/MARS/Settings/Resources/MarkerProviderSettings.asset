@@ -15,6 +15,8 @@ MonoBehaviour:
   m_XrReferenceImageLibraries:
   - {fileID: 11400000, guid: c3425b70e163d9048a1182c93627b1fb, type: 2}
   - {fileID: 11400000, guid: f526dad7aea54cd4fa4ba78f224f9266, type: 2}
+  - {fileID: 11400000, guid: e3780893d4a184811954d52bbe9b43a4, type: 2}
   m_MarsMarkerLibraries:
   - {fileID: 11400000, guid: 4e9294454125e3e44acabdf58befcb14, type: 2}
   - {fileID: 11400000, guid: fa24aadee1250804d94ace2860926412, type: 2}
+  - {fileID: 11400000, guid: 485731f8567f54ab683602f1add93d79, type: 2}
