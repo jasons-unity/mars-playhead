@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MarsPlayhead.unity
+    guid: 143eca41d641d4bb69a4f0afd59cea54
   m_configObjects: {}

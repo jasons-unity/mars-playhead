@@ -1,45 +1,48 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Unity.MARS;
-using Unity.XRTools.ModuleLoader;
 using UnityEngine;
+using UnityEngine.UI;
 
 //[ExecuteInEditMode]
 public class Playhead : MonoBehaviour
 {
     private Vector3 _startPosition;
     private Vector3 _endPosition;
-    private List<Vector3> _wordVertices;
-    public LandmarkController polygonLandmark;
-    private SimulatedObjectsManager _simManager;
-    public Proxy thisProxy;
+    private List<Vector3> _worldVertices;
+    private LandmarkController _polygonLandmark;
+    private LandmarkOutputPolygon _boundingRec;
+    private Proxy _thisProxy;
     private bool _playing;
     private bool _init;
     private GameObject _endCube;
     private float _playAreaWidth;
+    private GameObject _playAreaOutline;
+    private Toggle _lockPlayArea;
+    private Proxy[] _proxies;
 
     // Start is called before the first frame update
     private void Start()
     {
-        
-        _simManager = ModuleLoaderCore.instance.GetModule<SimulatedObjectsManager>();
-        
-        var boundingRec = polygonLandmark.output as LandmarkOutputPolygon;
-        if (boundingRec != null) boundingRec.dataChanged += GetParentSize;
-        // find leftmost and rightmost gameobjects to know start and end position of playhead
+        _proxies = FindObjectsOfType<Proxy>();
+        _polygonLandmark = FindObjectOfType<LandmarkController>();
+        _boundingRec = _polygonLandmark.output as LandmarkOutputPolygon;
+        if (_boundingRec != null) _boundingRec.dataChanged += GetParentSize;
 
-        // Need to add a buffer value to append time to end position in be able to adjust loop
+        var toggles = FindObjectsOfType<Toggle>().ToList();
+        _lockPlayArea = toggles.Find(toggle => toggle.name == "LockPlayArea");
 
         // Make playhead invisible
         //GetComponent<Renderer>().enabled = false;
-        
-        
+
     }
 
     private void Update()
     {
+        var proxies = _proxies.ToList();
+        _thisProxy = proxies.Find(proxy => proxy.name == "PlayheadProxy");
         // if this is the first pass, init playhead starting point and ending point
-        if (thisProxy.queryState == QueryState.Tracking && _init == false && _playing == false)
+        if (_thisProxy.queryState == QueryState.Tracking && _init == false && _playing == false)
         {
             _init = true;
         }
@@ -49,13 +52,15 @@ public class Playhead : MonoBehaviour
 
     private void UpdatePlayHeadPosition()
     {
-        if (_wordVertices == null || _wordVertices.Count == 0) return;
+        if (_worldVertices == null || _worldVertices.Count == 0) return;
         // recalculate start and end each time in case plane has expanded from additional scan
-        _startPosition = _wordVertices[1];
-        _endPosition = _wordVertices[0];
+        _startPosition = _worldVertices[1];
         
+        _endPosition = _worldVertices[0];
+
         // determine the width of play area
-        _playAreaWidth = Vector3.Distance(_wordVertices[1], _wordVertices[2]);
+        _playAreaWidth = Vector3.Distance(_worldVertices[1], _worldVertices[2]);
+
         _startPosition += new Vector3( _playAreaWidth / 2,0, 0);
         
         // set playhead width to match play area width
@@ -70,7 +75,6 @@ public class Playhead : MonoBehaviour
             
             // place proxy at start
             gameObject.transform.parent.position = _startPosition;
-            
             
             // if endcube doesn't exist
             if (!_endCube)
@@ -105,15 +109,29 @@ public class Playhead : MonoBehaviour
 
     private void GetParentSize(ICalculateLandmarks l)
     {
-        var boundingRec = l as LandmarkOutputPolygon;
-        if (boundingRec != null) _wordVertices = boundingRec.worldVertices;
+        if (_lockPlayArea.isOn) return;
+        if (_boundingRec != null) _worldVertices = _boundingRec.worldVertices;
+        if (_playAreaOutline == null)
+        {
+            _playAreaOutline = new GameObject();
+            _playAreaOutline.AddComponent<LineRenderer>();
+        }
+
+        var lineRenderer = _playAreaOutline.GetComponent<LineRenderer>();
+        lineRenderer.positionCount = 5;
+        lineRenderer.SetPosition(0,_worldVertices[0]);
+        lineRenderer.SetPosition(1, _worldVertices[1]);
+        lineRenderer.SetPosition(2, _worldVertices[2]);
+        lineRenderer.SetPosition(3, _worldVertices[3]);
+        lineRenderer.SetPosition(4, _worldVertices[0]);
+        lineRenderer.widthCurve = AnimationCurve.Linear(0,0.01f, 1, 0.01f);
+
     }
     
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "ToneCube")
         {
-            Debug.Log("PlayTone");
             var playTone = other.GetComponentInParent<PlayTone>();
             playTone.frequency = Mathf.Abs(other.transform.rotation.eulerAngles.y) * 55;
             playTone.gain = 0.5f;
@@ -127,7 +145,6 @@ public class Playhead : MonoBehaviour
     {
         if (other.name == "ToneCube")
         {
-            Debug.Log("StopPlayTone");
             var playTone = other.GetComponentInParent<PlayTone>();
             playTone.gain = 0.0f;
         }

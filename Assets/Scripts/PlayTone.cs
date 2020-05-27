@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayTone : MonoBehaviour
 {
@@ -17,39 +13,68 @@ public class PlayTone : MonoBehaviour
 
     private float _sensitivity;
     private Vector3 _mouseReference;
+    private Vector2 _touchReference;
     private Vector3 _mouseOffset;
+    private Vector3 _touchOffset;
     private Vector3 _rotation;
+    private Vector3 _scale;
     private bool _isRotating;
-     
+    private bool _isScaling;
+    private Vector3 _minimumScale;
+    private Vector3 _startScale;
+
     void Start ()
     {
         _sensitivity = 0.4f;
         _rotation = Vector3.zero;
+        _minimumScale = transform.localScale;
     }
      
     void Update()
     {
+  
         if(_isRotating)
         {
             // offset
             _mouseOffset = (Input.mousePosition - _mouseReference);
-             
+         
             // apply rotation
             _rotation.y = -(_mouseOffset.x + _mouseOffset.y) * _sensitivity;
-             
+         
             // rotate
             transform.Rotate(_rotation);
-             
+         
             // store mouse
             _mouseReference = Input.mousePosition;
         }
+        if(_isScaling)
+        {
+            transform.localScale += new Vector3(
+                0,
+                0,
+                (Input.mousePosition.y - _mouseReference.y) * Time.deltaTime * _sensitivity);
+
+            // store mouse
+            _mouseReference = Input.mousePosition;
+        }
+
     }
      
     void OnMouseDown()
     {
-        // rotating flag
-        _isRotating = true;
-         
+        if (Input.GetMouseButton(0))
+        {
+            if (Input.GetKey(KeyCode.LeftShift) || Input.touchCount >= 2)
+            {
+                _isScaling = true;
+            }
+            else
+            {
+                _isRotating = true;
+            }
+        }
+
+
         // store mouse
         _mouseReference = Input.mousePosition;
     }
@@ -58,6 +83,7 @@ public class PlayTone : MonoBehaviour
     {
         // rotating flag
         _isRotating = false;
+        _isScaling = false;
     }
 
     private void OnAudioFilterRead(float[] data, int channels)
@@ -79,12 +105,6 @@ public class PlayTone : MonoBehaviour
                 phase = 0.0;
             }
         }
-
-        // When we have data to play
-        // if (!data.First().Equals(0.0f))
-        // {
-        //     var startValue = data[1000];
-        //
-        // }
+        
     }
 }

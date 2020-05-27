@@ -14,9 +14,10 @@
       <Path>Library/PackageCache/com.unity.labs.module-loader@0.1.6-preview</Path>
       <Path>Library/PackageCache/com.unity.labs.spatial-hash@0.1.0-preview</Path>
       <Path>Library/PackageCache/com.unity.labs.utils@0.1.6-preview</Path>
-      <Path>Library/PackageCache/com.unity.mars-ar-foundation-providers@0.1.22-preview</Path>
-      <Path>Library/PackageCache/com.unity.mars-nav-mesh@0.1.20-preview</Path>
-      <Path>Library/PackageCache/com.unity.mars@0.9.13-preview</Path>
+      <Path>Library/PackageCache/com.unity.mars-ar-foundation-providers@0.1.24-preview</Path>
+      <Path>Library/PackageCache/com.unity.mars-nav-mesh@0.1.22-preview</Path>
+      <Path>Library/PackageCache/com.unity.mars@0.9.15-preview</Path>
+      <Path>Library/PackageCache/com.unity.mobile.android-logcat@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.postprocessing@2.2.2</Path>
       <Path>Library/PackageCache/com.unity.prefab-handles@0.4.1-preview</Path>
       <Path>Library/PackageCache/com.unity.subsystemregistration@1.0.6</Path>
@@ -24,11 +25,13 @@
       <Path>Library/PackageCache/com.unity.textmeshpro@2.0.1</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.2.10</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.2.9</Path>
+      <Path>Library/PackageCache/com.unity.xr.arcore@2.1.8</Path>
       <Path>Library/PackageCache/com.unity.xr.arfoundation@2.1.8</Path>
       <Path>Library/PackageCache/com.unity.xr.arkit-face-tracking@3.0.0-preview.4</Path>
       <Path>Library/PackageCache/com.unity.xr.arkit@3.0.0-preview.4</Path>
       <Path>Library/PackageCache/com.unity.xr.arsubsystems@2.1.2</Path>
       <Path>Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.1</Path>
+      <Path>Library/PackageCache/com.unity.xr.management@3.0.6</Path>
       <Path>Library/PackageCache/com.unity.xrtools.module-loader@0.1.15-preview</Path>
       <Path>Library/PackageCache/com.unity.xrtools.utils@0.1.14-preview</Path>
       <Path>Packages</Path>
@@ -38,6 +41,7 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Logs</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac09af4ca5c2364db3c3c984c0d439a, type: 3}
   m_Name: RegenerationWatcher
   m_EditorClassIdentifier: 
-  m_PreviousMarsPackageVersion: 0.9.13-preview
+  m_PreviousMarsPackageVersion: 0.9.15-preview
   m_DisableDeleteGenerated: 0
   m_TriedToSetGenerateAllProjects: 1

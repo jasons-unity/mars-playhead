@@ -135,7 +135,7 @@
               <e p="VSCodeScriptEditor.cs" t="Include" />
             </e>
           </e>
-          <e p="com.unity.mars-ar-foundation-providers@0.1.22-preview" t="Include">
+          <e p="com.unity.mars-ar-foundation-providers@0.1.24-preview" t="Include">
             <e p="Editor" t="Include">
               <e p="ARCore" t="Include">
                 <e p="ARCoreFaceEditorUtils.cs" t="Include" />
@@ -207,7 +207,7 @@
               <e p="Unity.MARS.Providers.ARFoundation.asmdef" t="Include" />
             </e>
           </e>
-          <e p="com.unity.mars-nav-mesh@0.1.20-preview" t="Include">
+          <e p="com.unity.mars-nav-mesh@0.1.22-preview" t="Include">
             <e p="NavMeshComponents" t="Include">
               <e p="NavMeshComponents" t="Include">
                 <e p="Editor" t="Include">
@@ -237,7 +237,7 @@
               <e p="Unity.MARS.Navmesh.asmdef" t="Include" />
             </e>
           </e>
-          <e p="com.unity.mars@0.9.13-preview" t="Include">
+          <e p="com.unity.mars@0.9.15-preview" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics" t="Include">
                 <e p="EditorEvents.cs" t="Include" />
@@ -1240,6 +1240,33 @@
               <e p="Unity.MARS.asmdef" t="Include" />
             </e>
           </e>
+          <e p="com.unity.mobile.android-logcat@1.0.0" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AndroidLogcat.cs" t="Include" />
+              <e p="AndroidLogcatCallbacks.cs" t="Include" />
+              <e p="AndroidLogcatConsoleWindow.cs" t="Include" />
+              <e p="AndroidLogcatDevice.cs" t="Include" />
+              <e p="AndroidLogcatInternalLog.cs" t="Include" />
+              <e p="AndroidLogcatIPWindow.cs" t="Include" />
+              <e p="AndroidLogcatManager.cs" t="Include" />
+              <e p="AndroidLogcatMessageProvider.cs" t="Include" />
+              <e p="AndroidLogcatMessagesViews.cs" t="Include" />
+              <e p="AndroidLogcatRuntime.cs" t="Include" />
+              <e p="AndroidLogcatScreenCaptureWindow.cs" t="Include" />
+              <e p="AndroidLogcatStacktraceWindow.cs" t="Include" />
+              <e p="AndroidLogcatStatusBar.cs" t="Include" />
+              <e p="AndroidLogcatStyles.cs" t="Include" />
+              <e p="AndroidLogcatTagsControl.cs" t="Include" />
+              <e p="AndroidLogcatUtilities.cs" t="Include" />
+              <e p="Tasks" t="Include">
+                <e p="AndroidLogcatDispatcher.cs" t="Include" />
+                <e p="AndroidLogcatRetrieveConnectedDeviceIdsTask.cs" t="Include" />
+                <e p="AndroidLogcatTaskInput.cs" t="Include" />
+                <e p="AndroidLogcatTaskResult.cs" t="Include" />
+              </e>
+              <e p="Unity.Mobile.AndroidLogcat.Editor.asmdef" t="Include" />
+            </e>
+          </e>
           <e p="com.unity.subsystemregistration@1.0.6" t="Include">
             <e p="Runtime" t="Include">
               <e p="SubsystemRegistration.cs" t="Include" />
@@ -2114,6 +2141,42 @@
               </e>
             </e>
           </e>
+          <e p="com.unity.xr.arcore@2.1.8" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ARCoreBuildProcessor.cs" t="Include" />
+              <e p="ARCorePackageMetadata.cs" t="Include" />
+              <e p="ARCoreSettings.cs" t="Include" />
+              <e p="ARCoreSettingsProvider.cs" t="Include" />
+              <e p="Unity.XR.ARCore.Editor.asmdef" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="Android" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="ARCoreShader.shader" t="Include" />
+                </e>
+              </e>
+              <e p="ARCoreCameraSubsystem.cs" t="Include" />
+              <e p="ARCoreFaceRegion.cs" t="Include" />
+              <e p="ARCoreFaceRegionData.cs" t="Include" />
+              <e p="ARCoreFaceSubsystem.cs" t="Include" />
+              <e p="ARCoreImageTrackingProvider.cs" t="Include" />
+              <e p="ARCoreLoader.cs" t="Include" />
+              <e p="ARCoreLoaderConstants.cs" t="Include" />
+              <e p="ARCoreLoaderSettings.cs" t="Include" />
+              <e p="ARCorePermissionManager.cs" t="Include" />
+              <e p="ARCorePlaneProvider.cs" t="Include" />
+              <e p="ARCorePromise.cs" t="Include" />
+              <e p="ARCoreRaycastSubsystem.cs" t="Include" />
+              <e p="ARCoreReferencePointSubsystem.cs" t="Include" />
+              <e p="ARCoreSessionSubsystem.cs" t="Include" />
+              <e p="ArPrestoApi.cs" t="Include" />
+              <e p="Assembly.cs" t="Include" />
+              <e p="Depth" t="Include">
+                <e p="ARCoreXRDepthSubsystem.cs" t="Include" />
+              </e>
+              <e p="Unity.XR.ARCore.asmdef" t="Include" />
+            </e>
+          </e>
           <e p="com.unity.xr.arfoundation@2.1.8" t="Include">
             <e p="Editor" t="Include">
               <e p="ARCameraBackgroundEditor.cs" t="Include" />
@@ -2315,6 +2378,35 @@
               </e>
             </e>
           </e>
+          <e p="com.unity.xr.management@3.0.6" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BuildHelpers.cs" t="Include" />
+              <e p="EditorUtilities.cs" t="Include" />
+              <e p="InputHelpersConfigurationProvider.cs" t="Include" />
+              <e p="TypeLoaderExtensions.cs" t="Include" />
+              <e p="Unity.XR.Management.Editor.asmdef" t="Include" />
+              <e p="XRBuildProcessorHelper.cs" t="Include" />
+              <e p="XRConfigurationProvider.cs" t="Include" />
+              <e p="XRGeneralBuildProcessor.cs" t="Include" />
+              <e p="XRGeneralSettingsPerBuildTarget.cs" t="Include" />
+              <e p="XRGeneralSettingsUpgrade.cs" t="Include" />
+              <e p="XRLoaderInfo.cs" t="Include" />
+              <e p="XRLoaderInfoManager.cs" t="Include" />
+              <e p="XRLoaderOrderUI.cs" t="Include" />
+              <e p="XRManagerEditor.cs" t="Include" />
+              <e p="XRPackageInitialization.cs" t="Include" />
+              <e p="XRSettingsManager.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="IXRLoaderPreInit.cs" t="Include" />
+              <e p="Unity.XR.Management.asmdef" t="Include" />
+              <e p="XRConfigurationData.cs" t="Include" />
+              <e p="XRGeneralSettings.cs" t="Include" />
+              <e p="XRLoader.cs" t="Include" />
+              <e p="XRLoaderHelper.cs" t="Include" />
+              <e p="XRManagerSettings.cs" t="Include" />
+            </e>
+          </e>
           <e p="com.unity.xrtools.module-loader@0.1.15-preview" t="Include">
             <e p="Editor" t="Include">
               <e p="Editors" t="Include">
@@ -2473,6 +2565,7 @@
       <e p="Unity.MARS.Navmesh.csproj" t="IncludeRecursive" />
       <e p="Unity.MARS.Providers.ARFoundation.csproj" t="IncludeRecursive" />
       <e p="Unity.MARS.Providers.ARFoundation.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Mobile.AndroidLogcat.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Rider.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Subsystem.Registration.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.csproj" t="IncludeRecursive" />
@@ -2480,10 +2573,14 @@
       <e p="Unity.Timeline.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.VSCode.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.ARCore.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.ARCore.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.ARFoundation.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.ARFoundation.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.ARSubsystems.csproj" t="IncludeRecursive" />
       <e p="Unity.XR.ARSubsystems.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.Management.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.XRTools.ModuleLoader.csproj" t="IncludeRecursive" />
       <e p="Unity.XRTools.ModuleLoader.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.XRTools.ModuleLoader.Interfaces.csproj" t="IncludeRecursive" />
